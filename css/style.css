@@ -1,11 +1,21 @@
 /* base style */
 /* background color */
 body {
-    background-color: rgb(185, 182, 182);
+    background-image: url(../images/bloom-blooming-blossom-414660.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
     float: left;
+    position: relative; 
+}
+p {
+    color: rgb(83, 70, 70);
+    font-size: 25px;
+}
+nav {
+    background-color: rgb(170, 169, 169);
 }
 #header {
     font-size: 35px ;
@@ -16,6 +26,5 @@ img {
 a { 
     font-size: 30px ;
     
-    background-color: white;
-} 
-
+    background-color: rgb(238, 131, 131);
+}
