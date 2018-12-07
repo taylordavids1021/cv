@@ -52,6 +52,9 @@ a {
     100% {margin-left: 400px;}
         
 }
+li {
+    padding: 0% 0% 0% 25%;
+}
 
 button {
 margin-top: 50px;
@@ -64,4 +67,7 @@ padding: 10px 20px 10px 20px;
 border-radius: 10px;
 font-size: 20px;
 
+}
+div {
+   line-height: 30px;
 }
