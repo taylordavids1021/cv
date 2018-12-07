@@ -5,17 +5,33 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* font text style heading 2 */
+h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+/* text style */
+h3 {
+    font-family: 'Knewave', cursive;
+    font-size: 70px;
+}
+/* image placement */
 img {
     float: left;
     position: relative; 
 }
+/* color of paragraph */
 p {
     color: rgb(83, 70, 70);
     font-size: 25px;
 }
+/* background color of text */
 nav {
     background-color: rgb(170, 169, 169);
+}
+a {
+    text-align: left;
+    padding: 0px 50px;
 }
 #header {
     font-size: 35px ;
@@ -27,4 +43,25 @@ a {
     font-size: 30px ;
     
     background-color: rgb(238, 131, 131);
+}
+/* movement of header */
+@keyframes button {
+    0%   {margin-left: 0;}
+    25%  {margin-left: 400px;}
+    50%  {transform: rotateZ(180deg);}   
+    100% {margin-left: 400px;}
+        
+}
+
+button {
+margin-top: 50px;
+margin-left: 400px;
+animation-name: button;
+animation-duration: 4s;
+animation-iteration-count: 1;
+background-color: rgb(238, 131, 131);
+padding: 10px 20px 10px 20px;
+border-radius: 10px;
+font-size: 20px;
+
 }
