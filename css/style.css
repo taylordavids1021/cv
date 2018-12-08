@@ -37,12 +37,13 @@ a {
     text-align: center;
     list-style-type: none;
 }
+/* iframe background color */
 iframe {
     background-color: lightsalmon;
 }
 a { 
     font-size: 30px ;
-    
+    text-align: center;
     background-color: rgb(238, 131, 131);
 }
 /* movement of header */
@@ -56,7 +57,7 @@ a {
 li {
     padding: 0% 0% 0% 25%;
 }
-
+/* Add button style transform and rotate */
 button {
 margin-top: 50px;
 margin-left: 400px;
@@ -72,7 +73,10 @@ font-size: 20px;
 div {
    line-height: 30px;
 }
-
+:hover img {
+    transform: rotateY(360deg);
+    transition: transform 4s ease-out;
+}
 /* for mobile phone: */
 [class*="col-"] {
     width: 100%;
@@ -115,7 +119,7 @@ a {
     background-color: rgb(238, 131, 131);
 }
 
-@media only screen (min-width:600px {
+@media only screen (min-width:600px) {
 /* for tablets: */
 }
 /* font text style heading 2 */
@@ -156,7 +160,7 @@ a {
     background-color: rgb(238, 131, 131);
 }
 
-@media only screen (min-width: 768px {
+@media only screen (min-width: 768px) {
     /* for desktop: */
 }
     /* font text style heading 2 */
@@ -191,11 +195,8 @@ a {
     text-align: center;
     list-style-type: none;
 }
-a { 
-    font-size: 30px ;
-    
-    background-color: rgb(145, 76, 76);
-}
+
+
 
 
 
