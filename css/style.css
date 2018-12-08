@@ -76,47 +76,7 @@ div {
 /* for mobile phone: */
 [class*="col-"] {
     width: 100%;
-    /* font text style heading 2 */
-h2 {
-    font-family: 'Monoton', cursive;
-    font-size: 50px;
 }
-/* text style */
-h3 {
-    font-family: 'Knewave', cursive;
-    font-size: 60px;
-}
-/* image placement */
-img {
-    float: left;
-    position: relative; 
-} 
-/* color of paragraph */
-p {
-    color: rgb(245, 241, 241);
-    font-size: 25px;
-}
-/* background color of text */
-
-a {
-    text-align: left;
-    padding: 0px 50px;
-}
-#header {
-    font-size: 35px ;
-    position: relative;
-    text-align: center;
-    list-style-type: none;
-}
-a { 
-    font-size: 30px ;
-    
-    background-color: rgb(238, 131, 131);
-}
-}
-
-@media only screen (min-width:600px) {
-/* for tablets: */
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
@@ -154,10 +114,51 @@ a {
     
     background-color: rgb(238, 131, 131);
 }
+
+@media only screen (min-width:600px {
+/* for tablets: */
+}
+/* font text style heading 2 */
+h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+/* text style */
+h3 {
+    font-family: 'Knewave', cursive;
+    font-size: 60px;
+}
+/* image placement */
+img {
+    float: left;
+    position: relative; 
+} 
+/* color of paragraph */
+p {
+    color: rgb(245, 241, 241);
+    font-size: 25px;
+}
+/* background color of text */
+
+a {
+    text-align: left;
+    padding: 0px 50px;
+}
+#header {
+    font-size: 35px ;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+}
+a { 
+    font-size: 30px ;
+    
+    background-color: rgb(238, 131, 131);
 }
 
-@media only screen (min-width:768px) {
+@media only screen (min-width: 768px {
     /* for desktop: */
+}
     /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
@@ -195,7 +196,7 @@ a {
     
     background-color: rgb(145, 76, 76);
 }
-}
+
 
 
 
