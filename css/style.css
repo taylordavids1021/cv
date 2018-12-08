@@ -8,27 +8,25 @@ body {
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
-    font-size: 60px;
+    font-size: 20px;
 }
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
-    font-size: 70px;
+    font-size: 40px;
 }
 /* image placement */
 img {
     float: left;
     position: relative; 
-}
+} 
 /* color of paragraph */
 p {
-    color: rgb(83, 70, 70);
+    color: rgb(245, 241, 241);
     font-size: 25px;
 }
 /* background color of text */
-nav {
-    background-color: rgb(170, 169, 169);
-}
+
 a {
     text-align: left;
     padding: 0px 50px;
@@ -38,6 +36,9 @@ a {
     position: relative;
     text-align: center;
     list-style-type: none;
+}
+iframe {
+    background-color: lightsalmon;
 }
 a { 
     font-size: 30px ;
@@ -71,3 +72,138 @@ font-size: 20px;
 div {
    line-height: 30px;
 }
+
+/* for mobile phone: */
+[class*="col-"] {
+    width: 100%;
+    /* font text style heading 2 */
+h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+/* text style */
+h3 {
+    font-family: 'Knewave', cursive;
+    font-size: 60px;
+}
+/* image placement */
+img {
+    float: left;
+    position: relative; 
+} 
+/* color of paragraph */
+p {
+    color: rgb(245, 241, 241);
+    font-size: 25px;
+}
+/* background color of text */
+
+a {
+    text-align: left;
+    padding: 0px 50px;
+}
+#header {
+    font-size: 35px ;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+}
+a { 
+    font-size: 30px ;
+    
+    background-color: rgb(238, 131, 131);
+}
+}
+
+@media only screen (min-width:600px) {
+/* for tablets: */
+/* font text style heading 2 */
+h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+/* text style */
+h3 {
+    font-family: 'Knewave', cursive;
+    font-size: 60px;
+}
+/* image placement */
+img {
+    float: left;
+    position: relative; 
+} 
+/* color of paragraph */
+p {
+    color: rgb(245, 241, 241);
+    font-size: 25px;
+}
+/* background color of text */
+
+a {
+    text-align: left;
+    padding: 0px 50px;
+}
+#header {
+    font-size: 35px ;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+}
+a { 
+    font-size: 30px ;
+    
+    background-color: rgb(238, 131, 131);
+}
+}
+
+@media only screen (min-width:768px) {
+    /* for desktop: */
+    /* font text style heading 2 */
+h2 {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+}
+/* text style */
+h3 {
+    font-family: 'Knewave', cursive;
+    font-size: 60px;
+}
+/* image placement */
+img {
+    float: left;
+    position: relative; 
+} 
+/* color of paragraph */
+p {
+    color: rgb(245, 241, 241);
+    font-size: 25px;
+}
+/* background color of text */
+
+a {
+    text-align: left;
+    padding: 0px 50px;
+}
+#header {
+    font-size: 35px ;
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+}
+a { 
+    font-size: 30px ;
+    
+    background-color: rgb(145, 76, 76);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
