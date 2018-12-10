@@ -31,10 +31,10 @@ h3 {
 }
 
 /* image placement */
-img {
+/* img {
     float: left;
     position: relative; 
-} 
+}  */
 
 /* color of paragraph */
 p {
@@ -133,6 +133,26 @@ ul {
     padding: 14px;
     background-color: rgb(117, 52, 45);
 }
+
+.header-1 {
+    background-color: rgb(196, 101, 91);
+    padding: 16px;
+}
+
+.header-2 {
+    background-color: rgb(196, 101, 91);
+    padding: 16px;
+}
+
+.header-3 {
+    background-color: rgb(196, 101, 91);
+    padding: 16px;
+}
+
+.header-4 {
+    background-color: rgb(196, 101, 91);
+    padding: 16px;
+}
 /* for mobile phone: */
 [class*="col-"] {
     width: 100%;
@@ -148,7 +168,7 @@ h3 {
     font-size: 60px;
 }
 /* image placement */
-img {
+.pic {
     float: left;
     position: relative; 
 } 
@@ -178,18 +198,20 @@ a {
 @media only screen (min-width:600px) {
 /* for tablets: */
 }
+
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
     font-size: 50px;
 }
+
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
     font-size: 60px;
 }
 /* image placement */
-img {
+.pic {
     float: left;
     position: relative; 
 } 
@@ -204,12 +226,14 @@ a {
     text-align: left;
     padding: 0px 50px;
 }
+
 #header {
     font-size: 35px ;
     position: relative;
     text-align: center;
     list-style-type: none;
 }
+
 a { 
     font-size: 30px ;
     
@@ -230,7 +254,7 @@ h3 {
     font-size: 60px;
 }
 /* image placement */
-img {
+.pic {
     float: left;
     position: relative; 
 } 
@@ -250,6 +274,27 @@ a {
     position: relative;
     text-align: center;
     list-style-type: none;
+}
+
+/* paragraph text color */
+li {
+font-family: 'Courgette', cursive;
+}
+
+/* table text color */
+table td p{
+    color: black;
+}
+
+.test {
+    margin-left: 600px;
+}
+
+.foot-1 {
+    background-color: rgb(192, 70, 111, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 
