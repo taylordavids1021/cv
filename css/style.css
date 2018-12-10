@@ -15,7 +15,7 @@ h1 {
 
 /* class image margin right */
 .pic {
-    margin-left: 250px;
+    margin-left: 100px;
 }
 
 /* font text style heading 2 */
@@ -42,22 +42,88 @@ p {
     font-size: 25px;
 }
 
-a {
-    text-align: left;
-    padding: 0px 50px;
-}
-#header {
-    font-size: 35px ;
-    position: relative;
-    text-align: center;
-    list-style-type: none;
-}
-
-/* iframe background color */
-a { 
+/* link text-size, padding , bgc, center,margin*/
+.navbar li { 
     font-size: 30px ;
     text-align: center;
     background-color: rgb(238, 131, 131);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px 5px 10px;
+    margin: 0 10px 0 10px;
+    display: inline;
+    
+}
+
+.navbar li a {
+    margin: 0 10px 0 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* iframe 2nd nav */
+.nav {
+    font-size: 30px;
+    text-align: center;
+    text-align: none;
+}
+
+/* navbar bgc, text color, text decoration, margin, padding */
+.nav-1 {
+    color: rgb(24, 27, 29);
+    background-color: salmon;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-2 {
+    color: rgb(24, 27, 29);
+    background-color: salmon;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+.nav-3 {
+    color: rgb(24, 27, 29);
+    background-color: salmon;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+.nav-4 {
+    color: rgb(24, 27, 29);
+    background-color: salmon;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+.nav-5 {
+    color: rgb(24, 27, 29);
+    background-color: salmon;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+.nav-6 {
+    color: rgb(24, 27, 29);
+    background-color: salmon;
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+.nav-7{
+    color: rgb(24, 27, 29);
+    padding: 15px 20px 15px 20px;
+    margin: 10px 12px 10px 12px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
 }
 
 /* movement of header */
@@ -65,11 +131,7 @@ a {
     0%   {margin-left: 0;}
     25%  {margin-left: 400px;}
     50%  {transform: rotateZ(180deg);}   
-    100% {margin-left: 400px;}
-        
-}
-li {
-    padding: 0% 0% 0% 25%;
+    100% {margin-left: 400px;}   
 }
 
 /* Add button style transform and rotate */
@@ -112,6 +174,8 @@ div {
 /*end of class  */
 ul {
     list-style-type: none;
+    text-align: center;
+
 }
 /* background color of table and padding extention */
 .row-1 {
@@ -183,23 +247,6 @@ p {
 }
 /* background color of text */
 
-a {
-    text-align: left;
-    padding: 0px 50px;
-    font-size: 35px
-}
-#header {
-    font-size: 35px ;
-    position: relative;
-    text-align: center;
-    list-style-type: none;
-}
-a { 
-    font-size: 30px ;
-    
-    background-color: rgb(238, 131, 131);
-}
-
 @media screen and (min-width:600px) {
 /* for tablets: */
 .frame {
@@ -226,26 +273,7 @@ h3 {
 /* color of paragraph */
 p {
     color: rgb(245, 241, 241);
-    font-size: 25px;
-}
-/* background color of text */
-
-a {
-    text-align: left;
-    padding: 0px 50px;
-}
-
-#header {
-    font-size: 35px ;
-    position: relative;
-    text-align: center;
-    list-style-type: none;
-}
-
-a { 
-    font-size: 30px ;
-    
-    background-color: rgb(238, 131, 131);
+    font-size: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -271,23 +299,12 @@ p {
     color: rgb(245, 241, 241);
     font-size: 40px;
 }
-/* background color of text */
-
-a {
-    text-align: left;
-    padding: 0px 50px;
-}
-#header {
-    font-size: 35px ;
-    position: relative;
-    text-align: center;
-    list-style-type: none;
-}
 
 /* paragraph text color */
 li {
 font-family: 'Courgette', cursive;
 font-size: 35px;
+padding: 0 0 0 25px;
 }
 
 /* table text color */
@@ -306,7 +323,7 @@ table td p{
     background-color: rgb(192, 70, 111, 0.5);
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 
