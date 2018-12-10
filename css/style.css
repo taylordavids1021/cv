@@ -1,31 +1,46 @@
 /* base style */
 /* background color */
 body {
-    background-image: url(../images/bloom-blooming-blossom-414660.jpg);
+    background-image: url(../images/blur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* first heading background color, text and size */
+h1 {
+    background-color: rgb(230, 90, 75);
+    color: white;
+    font-size: 50px;
+}
+
+/* class image margin right */
+.pic {
+    margin-left: 250px;
+}
+
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
     font-size: 20px;
 }
+
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
     font-size: 40px;
 }
+
 /* image placement */
 img {
     float: left;
     position: relative; 
 } 
+
 /* color of paragraph */
 p {
-    color: rgb(245, 241, 241);
+    color: rgb(24, 22, 22);
     font-size: 25px;
 }
-/* background color of text */
 
 a {
     text-align: left;
@@ -37,15 +52,14 @@ a {
     text-align: center;
     list-style-type: none;
 }
+
 /* iframe background color */
-iframe {
-    background-color: lightsalmon;
-}
 a { 
     font-size: 30px ;
     text-align: center;
     background-color: rgb(238, 131, 131);
 }
+
 /* movement of header */
 @keyframes button {
     0%   {margin-left: 0;}
@@ -57,6 +71,7 @@ a {
 li {
     padding: 0% 0% 0% 25%;
 }
+
 /* Add button style transform and rotate */
 button {
 margin-top: 50px;
@@ -68,14 +83,55 @@ background-color: rgb(238, 131, 131);
 padding: 10px 20px 10px 20px;
 border-radius: 10px;
 font-size: 20px;
-
 }
+/* end of button */
+
 div {
    line-height: 30px;
 }
-:hover img {
+/* class hover certain images to rotate */
+.logo-1:hover {
     transform: rotateY(360deg);
     transition: transform 4s ease-out;
+}
+
+.logo-2:hover {
+    transform: rotateY(360deg);
+    transition: transform 4s ease-out;
+}
+
+.logo-3:hover {
+    transform: rotateY(360deg);
+    transition: transform 4s ease-out;
+}
+
+.logo-4:hover {
+    transform: rotateY(360deg);
+    transition: transform 4s ease-out;
+}
+/*end of class  */
+ul {
+    list-style-type: none;
+}
+/* background color of table and padding extention */
+.row-1 {
+    padding: 14px;
+    background-color: rgb(192, 81, 69);
+}
+
+.row-2 {
+    padding: 14px;
+    background-color: rgb(124, 62, 55);
+}
+
+.row-3 {
+    padding: 14px;
+    background-color: rgb(230, 90, 75);
+}
+
+.row-4 {
+    padding: 14px;
+    background-color: rgb(117, 52, 45);
 }
 /* for mobile phone: */
 [class*="col-"] {
@@ -98,7 +154,7 @@ img {
 } 
 /* color of paragraph */
 p {
-    color: rgb(245, 241, 241);
+    color: rgb(102, 46, 46);
     font-size: 25px;
 }
 /* background color of text */
