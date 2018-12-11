@@ -10,33 +10,33 @@ body {
 h1 {
     background-color: rgb(230, 90, 75);
     color: white;
-    font-size: 50px;
-    padding: 12px 20px 12px 20px;
+    font-size: 3.125rem;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
 }
 
 /* class image margin right */
 .pic {
-    margin-left: 100px;
+    margin-left: 6.25rem;
 }
 
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 /* color of paragraph */
 p {
     color: rgb(24, 22, 22);
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
-/* image placement */
+/* image placpxent */
 .pic {
     float: left;
     position: relative; 
@@ -44,58 +44,58 @@ p {
 /* color of paragraph */
 p {
     color: rgb(245, 241, 241);
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 /* paragraph text color */
 li {
 font-family: 'Courgette', cursive;
-font-size: 35px;
-padding: 0 0 0 25px;
+font-size: 2.1875rem;
+padding: 0 0 0 1.5625rem;
 }
 
 /* table text color */
 table td p{
     color: black;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 /* contact details margin shift */
 .details {
-    margin-left: 600px;
+    margin-left: 37.5rem;
 }
 
 /* footer background color padding top & bottom font-style */
 .foot-1 {
     background-color: rgb(192, 70, 111, 0.5);
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 0.1875rem;
+    padding-bottom: 0.1875rem;
     font-family: 'Pacifico', cursive;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0.1875rem;
+    margin-bottom: 0.1875rem;
 }
 /* link text-size, padding , bgc, center,margin*/
 .navbar li { 
-    font-size: 30px ;
+    font-size: 1.875rem ;
     text-align: center;
     background-color: rgb(238, 131, 131);
     text-decoration: none;
     color: aliceblue;
-    padding: 5px 10px 5px 10px;
-    margin: 0 10px 0 10px;
+    padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
+    margin: 0 0.625rem 0 0.625rem;
     display: inline;
     
 }
 
 .navbar li a {
-    margin: 0 10px 0 10px;
+    margin: 0 0.625rem 0 0.625rem;
     color: aliceblue;
     text-decoration: none;
 }
 
 /* iframe 2nd nav */
 .nav {
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
     text-align: none;
 }
@@ -104,8 +104,8 @@ table td p{
 .nav-1 {
     color: rgb(24, 27, 29);
     background-color: salmon;
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
@@ -113,88 +113,88 @@ table td p{
 .nav-2 {
     color: rgb(24, 27, 29);
     background-color: salmon;
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 .nav-3 {
     color: rgb(24, 27, 29);
     background-color: salmon;
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 .nav-4 {
     color: rgb(24, 27, 29);
     background-color: salmon;
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 .nav-5 {
     color: rgb(24, 27, 29);
     background-color: salmon;
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 .nav-6 {
     color: rgb(24, 27, 29);
     background-color: salmon;
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 .nav-7{
     color: rgb(24, 27, 29);
-    padding: 15px 20px 15px 20px;
-    margin: 10px 12px 10px 12px;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
+    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
 }
 
 /* image rotating 360 degrees */
 .flower {
-    width: 100px;
-    height:100px;
-    border-radius: 30px;
+    width: 6.25rem;
+    height:6.25rem;
+    border-radius: 1.875rem;
     transition: width 2s ease-out, height 2s ease-out;
     position: absolute;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-    padding: 20px 0 20px 0;
+    padding: 1.25rem 0 1.25rem 0;
 }
 .flower:hover {
     -webkit-transform: rotate(360deg);
 }
-/* movement of header */
+/* movpxent of header */
 @keyframes button {
     0%   {margin-left: 0;}
-    25%  {margin-left: 400px;}
+    25%  {margin-left: 25rem;}
     50%  {transform: rotateZ(180deg);}   
-    100% {margin-left: 400px;}   
+    100% {margin-left: 25rem;}   
 }
 
 /* Add button style transform and rotate */
 button {
-margin-top: 50px;
-margin-left: 400px;
+margin-top: 3.125rem;
+margin-left: 25rem;
 animation-name: button;
 animation-duration: 4s;
 animation-iteration-count: 1;
 background-color: rgb(238, 131, 131);
-padding: 10px 20px 10px 20px;
-border-radius: 10px;
-font-size: 20px;
+padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+border-radius: 0.625rem;
+font-size: 1.25rem;
 }
 /* end of button */
 
 div {
-   line-height: 30px;
+   line-height: 1.875rem;
 }
 /* class hover certain images to rotate */
 .logo-1:hover {
@@ -224,85 +224,85 @@ ul {
 }
 /* background color of table and padding extention */
 .row-1 {
-    padding: 14px;
+    padding: 0.875rem;
     background-color: rgb(192, 81, 69);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .row-2 {
-    padding: 14px;
+    padding: 0.875rem;
     background-color: rgb(124, 62, 55);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .row-3 {
-    padding: 14px;
+    padding: 0.875rem;
     background-color: rgb(230, 90, 75);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .row-4 {
-    padding: 14px;
+    padding: 0.875rem;
     background-color: rgb(117, 52, 45);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .header-1 {
     background-color: rgb(196, 101, 91);
-    padding: 16px;
+    padding: 1rem;
 }
 
 .header-2 {
     background-color: rgb(196, 101, 91);
-    padding: 16px;
+    padding: 1rem;
 }
 
 .header-3 {
     background-color: rgb(196, 101, 91);
-    padding: 16px;
+    padding: 1rem;
 }
 
 .header-4 {
     background-color: rgb(196, 101, 91);
-    padding: 16px;
+    padding: 1rem;
 }
 .contact {
     background-color: rgb(230, 90, 75);  
-    padding: 10px 30px 10px 30px;
-    margin: 0 600px 0 600px;
+    padding: 0.625rem 1.875rem 0.625rem 1.875rem;
+    margin: 0 37.5rem 0 37.5rem;
 }
 /* responsive for mobile phone: */
-@media screen and (max-width:480px) {
+@media screen and (max-width:30rem) {
 
 h1 {
     background-color: rgb(230, 90, 75);
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 /* class image margin right */
 .pic {
-    padding-left: 0 0 0 90px;
-    margin-left: 100px;
+    padding-left: 0 0 0 5.625rem;
+    margin-left: 6.25rem;
 }
 
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 /* color of paragraph */
 p {
     color: rgb(24, 22, 22);
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
-/* image placement */
+/* image placpxent */
 .pic {
     float: left;
     position: relative; 
@@ -310,41 +310,41 @@ p {
 /* color of paragraph */
 p {
     color: rgb(245, 241, 241);
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 /* paragraph text color */
 li {
 font-family: 'Courgette', cursive;
-font-size: 35px;
-padding: 0 0 0 25px;
+font-size: 2.1875rem;
+padding: 0 0 0 1.5625rem;
 }
 
 /* table text color */
 table td p{
     color: black;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 /* contact details margin shift */
 .details {
-    margin-left: 600px;
+    margin-left: 37.5rem;
 }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:37.5rem) {
 /* responsive for tablets: */
 h1 {
     background-color: rgb(230, 90, 75);
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     /* responsive for desktop: */
 h1 {
     background-color: rgb(230, 90, 75);
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 }
