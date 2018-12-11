@@ -11,6 +11,7 @@ h1 {
     background-color: rgb(230, 90, 75);
     color: white;
     font-size: 50px;
+    padding: 12px 20px 12px 20px;
 }
 
 /* class image margin right */
@@ -21,7 +22,7 @@ h1 {
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 /* text style */
@@ -30,18 +31,49 @@ h3 {
     font-size: 40px;
 }
 
-/* image placement */
-/* img {
-    float: left;
-    position: relative; 
-}  */
-
 /* color of paragraph */
 p {
     color: rgb(24, 22, 22);
     font-size: 25px;
 }
+/* image placement */
+.pic {
+    float: left;
+    position: relative; 
+} 
+/* color of paragraph */
+p {
+    color: rgb(245, 241, 241);
+    font-size: 40px;
+}
 
+/* paragraph text color */
+li {
+font-family: 'Courgette', cursive;
+font-size: 35px;
+padding: 0 0 0 25px;
+}
+
+/* table text color */
+table td p{
+    color: black;
+    font-size: 30px;
+}
+
+/* contact details margin shift */
+.details {
+    margin-left: 600px;
+}
+
+/* footer background color padding top & bottom font-style */
+.foot-1 {
+    background-color: rgb(192, 70, 111, 0.5);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
 /* link text-size, padding , bgc, center,margin*/
 .navbar li { 
     font-size: 30px ;
@@ -126,6 +158,19 @@ p {
     font-family: 'Pacifico', cursive;
 }
 
+/* image rotating 360 degrees */
+.flower {
+    width: 100px;
+    height:100px;
+    border-radius: 30px;
+    transition: width 2s ease-out, height 2s ease-out;
+    position: absolute;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    padding: 20px 0 20px 0;
+}
+.flower:hover {
+    -webkit-transform: rotate(360deg);
+}
 /* movement of header */
 @keyframes button {
     0%   {margin-left: 0;}
@@ -221,73 +266,41 @@ ul {
     background-color: rgb(196, 101, 91);
     padding: 16px;
 }
-/* for mobile phone: */
-[class*="col-"] {
-    width: 100%;
+.contact {
+    background-color: rgb(230, 90, 75);  
+    padding: 10px 30px 10px 30px;
+    margin: 0 600px 0 600px;
 }
+/* responsive for mobile phone: */
+@media screen and (max-width:480px) {
+
+h1 {
+    background-color: rgb(230, 90, 75);
+    color: white;
+    font-size: 50px;
+}
+/* class image margin right */
+.pic {
+    padding-left: 0 0 0 90px;
+    margin-left: 100px;
+}
+
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
-    font-size: 50px;
+    font-size: 20px;
 }
+
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
-    font-size: 60px;
+    font-size: 40px;
 }
-/* image placement */
-.pic {
-    float: left;
-    position: relative; 
-} 
+
 /* color of paragraph */
 p {
-    color: rgb(102, 46, 46);
+    color: rgb(24, 22, 22);
     font-size: 25px;
-}
-/* background color of text */
-
-@media screen and (min-width:600px) {
-/* for tablets: */
-.frame {
-    
-}
-}
-
-/* font text style heading 2 */
-h2 {
-    font-family: 'Monoton', cursive;
-    font-size: 50px;
-}
-
-/* text style */
-h3 {
-    font-family: 'Knewave', cursive;
-    font-size: 60px;
-}
-/* image placement */
-.pic {
-    float: left;
-    position: relative; 
-} 
-/* color of paragraph */
-p {
-    color: rgb(245, 241, 241);
-    font-size: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    /* for desktop: */
-}
-    /* font text style heading 2 */
-h2 {
-    font-family: 'Monoton', cursive;
-    font-size: 50px;
-}
-/* text style */
-h3 {
-    font-family: 'Knewave', cursive;
-    font-size: 60px;
 }
 /* image placement */
 .pic {
@@ -317,25 +330,21 @@ table td p{
 .details {
     margin-left: 600px;
 }
-
-/* footer background color padding top & bottom font-style */
-.foot-1 {
-    background-color: rgb(192, 70, 111, 0.5);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-family: 'Pacifico', cursive;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:600px) {
+/* responsive for tablets: */
+h1 {
+    background-color: rgb(230, 90, 75);
+    color: white;
+    font-size: 50px;
+}
+}
+@media screen and (max-width: 768px) {
+    /* responsive for desktop: */
+h1 {
+    background-color: rgb(230, 90, 75);
+    color: white;
+    font-size: 50px;
+}
+}
