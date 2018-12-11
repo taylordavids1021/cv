@@ -1,4 +1,9 @@
 /* base style */
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* background color */
 body {
     background-image: url(../images/blur.jpg);
@@ -76,7 +81,7 @@ table td p{
 }
 /* link text-size, padding , bgc, center,margin*/
 .navbar li { 
-    font-size: 1.875rem ;
+    font-size: 2.075rem ;
     text-align: center;
     background-color: rgb(238, 131, 131);
     text-decoration: none;
