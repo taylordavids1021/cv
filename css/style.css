@@ -22,6 +22,7 @@ h1 {
 /* class image margin right */
 .pic {
     margin-left: 6.25rem;
+    background-attachment: fixed;
 }
 
 /* font text style heading 2 */
@@ -116,53 +117,6 @@ table td p{
     font-family: 'Pacifico', cursive;
 }
 
-.nav-2 {
-    color: rgb(24, 27, 29);
-    background-color: salmon;
-    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
-    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-}
-.nav-3 {
-    color: rgb(24, 27, 29);
-    background-color: salmon;
-    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
-    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-}
-.nav-4 {
-    color: rgb(24, 27, 29);
-    background-color: salmon;
-    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
-    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-}
-.nav-5 {
-    color: rgb(24, 27, 29);
-    background-color: salmon;
-    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
-    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-}
-.nav-6 {
-    color: rgb(24, 27, 29);
-    background-color: salmon;
-    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
-    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-}
-.nav-7{
-    color: rgb(231, 235, 238);
-    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
-    margin: 0.625rem 0.75rem 0.625rem 0.75rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-}
 
 /* image rotating 360 degrees */
 .flower {
@@ -254,22 +208,24 @@ ul {
 }
 
 .header-1 {
-    background-color: rgb(196, 101, 91);
-    padding: 1rem;
+
+    float: right;
+    
 }
 
 .header-2 {
-    background-color: rgb(196, 101, 91);
-    padding: 1rem;
+    
+    
 }
 
 .header-3 {
-    background-color: rgb(196, 101, 91);
+
     padding: 1rem;
+    float: right;
 }
 
 .header-4 {
-    background-color: rgb(196, 101, 91);
+    
     padding: 1rem;
 }
 .contact {
