@@ -107,10 +107,10 @@ button {
     color: aliceblue;
     text-decoration: none;
     background-color: rgb(230, 90, 75, 0.05);
-    width: 300px;
+    width: 250px;
     height: 50px;
     font-family: 'Courgette', cursive;
-    font-size: 2rem ;
+    font-size: 1.5rem ;
     box-shadow: 0 5px 5px 0 rgba(32, 32, 32, 0.541);
     
 }
@@ -173,6 +173,26 @@ ul {
 .details {
     margin-left: 37.5rem;
 }
+
+
+    ::-webkit-scrollbar {
+        width: 29px;
+        background-color: rgb(255, 255, 255);
+        background-image: url(../images/happy.png);
+    }
+     
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgb(230, 90, 75); 
+        border-radius: 15px;
+        
+    }
+     
+    ::-webkit-scrollbar-thumb {
+        border-radius: 15px;
+        -webkit-box-shadow: inset 0 0 6px rgb(170, 55, 55); 
+        background-image: url(../images/pink\ rose.jpg);
+        background-size: 10%;
+    }
 
 /* footer background color padding top & bottom font-style */
 .foot-1 p {
