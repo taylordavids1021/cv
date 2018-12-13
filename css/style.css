@@ -23,6 +23,8 @@ h1 {
 .pic {
     margin-left: 6.25rem;
     background-attachment: fixed;
+    float: left;
+    position: relative;
 }
 
 /* font text style heading 2 */
@@ -39,17 +41,6 @@ h3 {
 
 /* color of paragraph */
 p {
-    color: rgb(24, 22, 22);
-    font-size: 1.5625rem;
-}
-
-/* image placpxent */
-.pic {
-    float: left;
-    position: relative; 
-} 
-/* color of paragraph */
-p {
     color: rgb(245, 241, 241);
     font-size: 2.5rem;
 }
@@ -59,6 +50,7 @@ li {
 font-family: 'Courgette', cursive;
 font-size: 2.1875rem;
 padding: 0 0 0 1.5625rem;
+color: black;
 }
 
 /* table text color */
@@ -67,31 +59,27 @@ table td p{
     font-size: 1.875rem;
 }
 
-/* contact details margin shift */
-.details {
-    margin-left: 37.5rem;
-}
-
-/* footer background color padding top & bottom font-style */
-.foot-1 {
-    background-color: rgb(192, 70, 111, 0.5);
-    padding-top: 0.1875rem;
-    padding-bottom: 0.1875rem;
-    font-family: 'Pacifico', cursive;
-    margin-top: 0.1875rem;
-    margin-bottom: 0.1875rem;
+a {
+    color: black;
+    
 }
 /* link text-size, padding , bgc, center,margin*/
 .navbar li { 
     font-size: 2.075rem ;
-    text-align: center;
-    background-color: rgb(238, 131, 131);
+    /* text-align: center; */
     text-decoration: none;
     color: aliceblue;
     padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
     margin: 0 0.625rem 0 0.625rem;
     display: inline;
-    
+    font-family: 'Courgette', cursive;
+}
+
+.navbar {
+    padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
+    margin: 0 0.625rem 0 0.625rem;
+    display: inline;
+    color : rgb(5, 5, 5);
 }
 
 .navbar li a {
@@ -100,86 +88,28 @@ table td p{
     text-decoration: none;
 }
 
-/* iframe 2nd nav */
-.nav {
-    font-size: 1.875rem;
-    text-align: center;
-    text-align: none;
-}
-
 /* navbar bgc, text color, text decoration, margin, padding */
-.nav-1 {
+.div {
     color: rgb(24, 27, 29);
-    background-color: salmon;
     padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
     margin: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
+    font-size: 1.875rem;
+    text-align: center;
+    text-align: none;
+    line-height: 1.875rem;
 }
 
-
-/* image rotating 360 degrees */
-.flower {
-    width: 6.25rem;
-    height:6.25rem;
-    border-radius: 1.875rem;
-    transition: width 2s ease-out, height 2s ease-out;
-    position: absolute;
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-    padding: 1.25rem 0 1.25rem 0;
-}
-.flower:hover {
-    -webkit-transform: rotate(360deg);
-}
-/* movpxent of header */
-@keyframes button {
-    0%   {margin-left: 0;}
-    25%  {margin-left: 25rem;}
-    50%  {transform: rotateZ(180deg);}   
-    100% {margin-left: 25rem;}   
-}
-
-/* Add button style transform and rotate */
-button {
-margin-top: 3.125rem;
-margin-left: 25rem;
-animation-name: button;
-animation-duration: 4s;
-animation-iteration-count: 1;
-background-color: rgb(238, 131, 131);
-padding: 0.625rem 1.25rem 0.625rem 1.25rem;
-border-radius: 0.625rem;
-font-size: 1.25rem;
-}
-/* end of button */
-
-div {
-   line-height: 1.875rem;
-}
 /* class hover certain images to rotate */
-.logo-1:hover {
+.header-1:hover {
     transform: rotateY(360deg);
     transition: transform 4s ease-out;
 }
 
-.logo-2:hover {
-    transform: rotateY(360deg);
-    transition: transform 4s ease-out;
-}
-
-.logo-3:hover {
-    transform: rotateY(360deg);
-    transition: transform 4s ease-out;
-}
-
-.logo-4:hover {
-    transform: rotateY(360deg);
-    transition: transform 4s ease-out;
-}
-/*end of class  */
 ul {
     list-style-type: none;
-    text-align: center;
+    color: black;
 
 }
 /* background color of table and padding extention */
@@ -207,106 +137,58 @@ ul {
     font-size: 1.875rem;
 }
 
-.header-1 {
-
-    float: right;
-    
-}
-
-.header-2 {
-    
-    
-}
-
-.header-3 {
-
-    padding: 1rem;
-    float: right;
-}
-
-.header-4 {
-    
-    padding: 1rem;
+.life {
+    transform: rotateY(360deg);
+    transition: transform 4s ease-out;
 }
 .contact {
     background-color: rgb(230, 90, 75);  
     padding: 0.625rem 1.875rem 0.625rem 1.875rem;
     margin: 0 37.5rem 0 37.5rem;
-}
-/* responsive for mobile phone: */
-@media screen and (max-width:30rem) {
-
-h1 {
-    background-color: rgb(230, 90, 75);
-    color: white;
-    font-size: 3.125rem;
-}
-/* class image margin right */
-.pic {
-    padding-left: 0 0 0 5.625rem;
-    margin-left: 6.25rem;
+    text-align: center;
 }
 
-/* font text style heading 2 */
-h2 {
-    font-family: 'Monoton', cursive;
-    font-size: 1.25rem;
+.contact-1 {
+    color: aliceblue;
 }
 
-/* text style */
-h3 {
-    font-family: 'Knewave', cursive;
-    font-size: 2.5rem;
-}
-
-/* color of paragraph */
-p {
-    color: rgb(24, 22, 22);
-    font-size: 1.5625rem;
-}
-/* image placpxent */
-.pic {
-    float: left;
-    position: relative; 
-} 
-/* color of paragraph */
-p {
-    color: rgb(245, 241, 241);
-    font-size: 2.5rem;
-}
-
-/* paragraph text color */
-li {
-font-family: 'Courgette', cursive;
-font-size: 2.1875rem;
-padding: 0 0 0 1.5625rem;
-}
-
-/* table text color */
-table td p{
-    color: black;
-    font-size: 1.875rem;
-}
 
 /* contact details margin shift */
 .details {
     margin-left: 37.5rem;
 }
+
+/* footer background color padding top & bottom font-style */
+.foot-1 {
+    background-color: rgb(192, 70, 111, 0.5);
+    color: black;
+    padding-top: 0.1875rem;
+    padding-bottom: 0.1875rem;
+    font-family: 'Pacifico', cursive;
+    margin-top: 0.1875rem;
+    margin-bottom: 0.1875rem;
+}
+/* responsive for different devices */
+/* responsive for mobile phone: */
+@media screen and (max-width:30rem) {
 }
 
 @media screen and (max-width:37.5rem) {
 /* responsive for tablets: */
-h1 {
-    background-color: rgb(230, 90, 75);
-    color: white;
-    font-size: 3.125rem;
 }
-}
+
 @media screen and (max-width: 48rem) {
     /* responsive for desktop: */
-h1 {
-    background-color: rgb(230, 90, 75);
-    color: white;
-    font-size: 3.125rem;
 }
+
+button {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: aqua;
+    width: 300px;
+    height: 50px;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem ;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.541);
+    
 }
