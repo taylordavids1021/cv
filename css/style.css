@@ -60,8 +60,14 @@ color: black;
 table td p{
     color: black;
     text-align: center;
+    
 }
 
+.table-2 {
+    text-align: center;
+    background-color: rgb(255, 99, 71, 0.30);
+    color: black; 
+}
 a {
     color: black;
     
@@ -130,9 +136,14 @@ button {
 
 /* class hover certain images to rotate */
 .header-1:hover,
-.life {
+td {
     transform: rotateY(360deg);
     transition: transform 4s ease-out;
+}
+
+.header-1 {
+    text-align: center;
+
 }
 
 ul {
