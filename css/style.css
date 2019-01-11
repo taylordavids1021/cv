@@ -6,14 +6,14 @@ html {
 
 /* background color */
 body {
-    background-image: url(../images/blur.jpg);
+    background-image: url(../images/alarm-clock-art-background-1037993.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* first heading background color, text and size */
 h1 {
-    background-color: rgb(230, 90, 75);
+    background-color: rgb(230, 90, 75, 0.400);
     color: white;
     font-size: 1.825rem;
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
@@ -55,21 +55,9 @@ padding: 0 0 0 1.5625rem;
 color: black;
 }
 
-
-/* table text color */
-table td p{
-    color: black;
-    text-align: center;
-    
-}
-
-.table-2 {
-    text-align: center;
-    background-color: rgb(255, 99, 71, 0.30);
-    color: black; 
-}
 a {
     color: black;
+    text-align: center;
     
 }
 /* link text-size, padding , bgc, center,margin*/
@@ -96,7 +84,7 @@ a {
     text-align: center;
     font-family: 'Charm', cursive;
     font-size: 1.675rem;
-    background-color: rgba(223, 47, 143, 0.412);
+    background-color: rgb(148, 227, 230);
     padding-left: 0.125rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -104,7 +92,7 @@ a {
 }
 
 .edu-link {
-    background-color: rgb(240, 248, 255, 0.120);
+    background-color: rgba(255, 143, 143, 0.932);
     padding: 1rem 1rem;
     margin: 1rem 1rem;
 }
@@ -124,26 +112,21 @@ button {
 /* navbar bgc, text color, text decoration, margin, padding */
 .link-1 {
     color: rgb(24, 27, 29);
-    padding: 0.375rem 0.25rem 0.375rem 0.25rem;
-    margin: 0.125rem 0.25rem 0.125rem 0.25rem;
+    padding: 0.175rem 0.25rem 0.375rem 0.25rem;
+    margin: 0.025rem 0.25rem 0.125rem 0.25rem;
     text-decoration: none;
     font-family: 'Pacifico', cursive;
     font-size: 1.375rem;
-    text-align: center;
     line-height: 1.875rem;
-    background-color: rgb(250, 128, 114);
+    background-color: rgb(148, 232, 247);
 }
+
 
 /* class hover certain images to rotate */
-.header-1:hover,
-td {
+.header-1:hover{
     transform: rotateY(360deg);
     transition: transform 4s ease-out;
-}
-
-.header-1 {
     text-align: center;
-
 }
 
 ul {
@@ -155,14 +138,14 @@ ul {
 .row-1,
 .row-3 {
     padding: 0.875rem;
-    background-color: rgb(192, 81, 69);
-    font-size: 1.875rem;
+    background-color: rgb(148, 228, 228);
+    font-size: 1.275rem;
 }
 
 .row-2 {
     padding: 0.875rem;
-    background-color: rgb(124, 62, 55);
-    font-size: 1.875rem;
+    background-color: rgb(240, 156, 147);
+    font-size: 1.275rem;
 }
 
 /* class style contact details */
@@ -189,7 +172,6 @@ ul {
     ::-webkit-scrollbar {
         width: 29px;
         background-color: rgb(255, 255, 255);
-        background-image: url(../images/happy.png);
     }
      
     ::-webkit-scrollbar-track {
@@ -207,7 +189,7 @@ ul {
 
 /* footer background color padding top & bottom font-style */
 .foot-1 p {
-    background-color: rgb(192, 70, 111, 0.5);
+    background-color: rgba(70, 192, 192, 0.5);
     color: black;
     padding-top: 0.0275rem;
     padding-bottom: 0.0275rem;
