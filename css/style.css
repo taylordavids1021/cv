@@ -123,10 +123,15 @@ button {
 
 
 /* class hover certain images to rotate */
-.header-1:hover{
+.header-1:hover,
+.header-2:hover {
     transform: rotateY(360deg);
     transition: transform 4s ease-out;
     text-align: center;
+}
+
+.header-2 {
+    margin-left: 20rem;
 }
 
 ul {
@@ -186,7 +191,7 @@ ul {
 }
 
 .skills {
-padding: 4.075rem 10.105rem;
+padding: 2.075rem 8.105rem;
     }
 
 .scroll {
@@ -205,13 +210,13 @@ padding: 4.075rem 10.105rem;
 }
 /* responsive for different devices */
 /* responsive for mobile phone: */
-@media screen and (max-width:30rem) {
+@media screen and (max-width:480px) {
 }
 
-@media screen and (max-width:37.5rem) {
+@media screen and (max-width:600px) {
 /* responsive for tablets: */
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
     /* responsive for desktop: */
 }
