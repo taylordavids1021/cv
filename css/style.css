@@ -50,7 +50,7 @@ p {
 /* paragraph text color */
 li {
 font-family: 'Courgette', cursive;
-font-size: 1.5875rem;
+font-size: 1.1875rem;
 padding: 0 0 0 1.5625rem;
 color: black;
 }
@@ -183,12 +183,11 @@ ul {
         border-radius: 15px;    
 }
      
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
         border-radius: 15px;
         -webkit-box-shadow: inset 0 0 6px rgb(170, 55, 55); 
-        background-image: url(../images/alarm-clock-art-background-1037993.jpg);
-        background-size: 10%;
-}
+        
+} */
 
 .skills {
 padding: 2.075rem 8.105rem;
@@ -197,6 +196,14 @@ padding: 2.075rem 8.105rem;
 .scroll {
     margin-bottom: 17.5rem;
     margin-left: 3.5rem;
+}
+
+.frame {
+        background-image: url(../images/alarm-clock-art-background-1037993.jpg);
+        background-size: 10%;
+        width: 40rem;
+        height: 29.2rem;
+        overflow: hidden;
 }
 /* footer background color padding top & bottom font-style */
 .foot-1 p {
