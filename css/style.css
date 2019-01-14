@@ -44,7 +44,7 @@ h3 {
 /* heading about paragraph */
 p {
     color: rgb(124, 76, 76);
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 /* paragraph text color */
@@ -173,21 +173,22 @@ ul {
     margin-left: 37.5rem;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
         width: 29px;
         background-color: rgb(255, 255, 255);
-}
+} */
      
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgb(230, 90, 75); 
         border-radius: 15px;    
-}
+} */
      
-/* ::-webkit-scrollbar-thumb {
+ ::-webkit-scrollbar-thumb {
         border-radius: 15px;
         -webkit-box-shadow: inset 0 0 6px rgb(170, 55, 55); 
-        
-} */
+        background: linear-gradient (crimson, palevioletred, lightseagreen 75% );
+        overflow:hidden;
+}
 
 .skills {
 padding: 2.075rem 8.105rem;
@@ -203,7 +204,7 @@ padding: 2.075rem 8.105rem;
         background-size: 10%;
         width: 40rem;
         height: 29.2rem;
-        overflow: hidden;
+        /* overflow: hidden; */
 }
 /* footer background color padding top & bottom font-style */
 .foot-1 p {
