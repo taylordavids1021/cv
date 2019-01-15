@@ -98,7 +98,7 @@ a {
 }
 /* button style */
 button {
-    color: aliceblue;
+    color: grey;
     text-decoration: none;
     background-color: rgb(230, 90, 75, 0.05);
     width: 250px;
@@ -199,11 +199,12 @@ padding: 2.075rem 8.105rem;
     margin-left: 3.5rem;
 }
 
+/* iframe style height/width, background image and size */
 .frame {
         background-image: url(../images/alarm-clock-art-background-1037993.jpg);
         background-size: 10%;
-        width: 40rem;
-        height: 29.2rem;
+        width: 60rem;
+        height: 41.8rem;
         /* overflow: hidden; */
 }
 /* footer background color padding top & bottom font-style */
