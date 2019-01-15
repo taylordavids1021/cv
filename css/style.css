@@ -30,7 +30,7 @@ h1 {
 /* font text style heading 2 */
 h2 {
     font-family: 'Monoton', cursive;
-    font-size: 2.925rem;
+    font-size: 3.525rem;
     text-align: center;
 }
 
@@ -89,6 +89,11 @@ a {
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     text-decoration-line: underline;
+    /* background-image: url(../images/pink-background-small-alarm-clock-.jpg); */
+}
+
+.edu {
+    background-color: rgb(250, 128, 114, 0,10);
 }
 
 .edu-link {
@@ -173,22 +178,26 @@ ul {
     margin-left: 37.5rem;
 }
 
-/* ::-webkit-scrollbar {
+    ::-webkit-scrollbar {
         width: 29px;
         background-color: rgb(255, 255, 255);
-} */
+} 
      
-/* ::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgb(230, 90, 75); 
-        border-radius: 15px;    
-} */
+        border-radius: 15px;   
+        background: linear-gradient(rgb(219, 95, 116), rgb(119, 95, 116), rgb(190, 95, 116) ) ;
+} 
      
- ::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         border-radius: 15px;
         -webkit-box-shadow: inset 0 0 6px rgb(170, 55, 55); 
         background: linear-gradient (crimson, palevioletred, lightseagreen 75% );
-        overflow:hidden;
 }
+
+    ::-webkit-scrollbar-thumb:hover {
+    background: #f76363; 
+  }
 
 .skills {
 padding: 2.075rem 8.105rem;
