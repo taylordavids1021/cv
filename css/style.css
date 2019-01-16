@@ -17,6 +17,8 @@ h1 {
     color: white;
     font-size: 1.825rem;
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    text-align: center;
+
 }
 
 /* class image margin right */
@@ -31,13 +33,15 @@ h1 {
 h2 {
     font-family: 'Monoton', cursive;
     font-size: 3.525rem;
-    text-align: center;
+    
+    margin-left: 40rem;
 }
 
 /* text style */
 h3 {
     font-family: 'Knewave', cursive;
     font-size: 3.5rem;
+    text-align: center;
 }
 
 /* color of paragraph */
@@ -45,6 +49,7 @@ h3 {
 p {
     color: rgb(40, 76, 76);
     font-size: 1.0rem;
+    text-align: center;
 }
 
 /* paragraph text color */
@@ -55,15 +60,9 @@ padding: 0 0 0 1.5625rem;
 color: black;
 }
 
-a {
-    color: black;
-    text-align: center;
-    
-}
 /* link text-size, padding , bgc, center,margin*/
 .navbar li { 
     font-size: 2.075rem ;
-    /* text-align: center; */
     text-decoration: none;
     color: aliceblue;
     padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
@@ -78,13 +77,20 @@ a {
     display: inline;
     color : rgb(5, 5, 5);
     text-decoration: none;
+    text-align: center;
 }
+
 /* iframe headers links */
-.ihead h2{
+.ihead h2,
+#about,
+#education,
+#work,
+#latest,
+#skills{
     text-align: center;
     font-family: 'Charm', cursive;
     font-size: 1.675rem;
-    background-color: rgb(148, 227, 230);
+    /* background-color: rgb(148, 227, 230); */
     padding-left: 0.125rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -92,30 +98,35 @@ a {
     /* background-image: url(../images/pink-background-small-alarm-clock-.jpg); */
 }
 
-.edu {
-    background-color: rgb(250, 128, 114);
-}
-
+/* style of div 'education' */
 .edu-link {
     background-color: rgba(255, 143, 143, 0.932);
     padding: 1rem 1rem;
     margin: 1rem 1rem;
 }
+/* end of style */
+
 /* button style, text color, height/width, text style, size, box style*/
 button {
     color: black;
     text-decoration: none;
+    text-align: center;
     background-color: rgb(230, 90, 75, 0.05);
     width: 250px;
     height: 50px;
     font-family: 'Courgette', cursive;
     font-size: 1.5rem ;
     box-shadow: 0 5px 5px 0 rgba(32, 32, 32, 0.541);
-    
 }
 
+button:hover {
+    background-color: rgb(134, 252, 252);
+}
+/* end of button style */
+
+
 /* navbar bgc, text color, text decoration, margin, padding */
-.link-1 {
+/* .link-1 {
     color: rgb(24, 27, 29);
     padding: 0.025rem 0.25rem 0.025rem 0.25rem;
     margin: 0.025rem 0.25rem 0.025rem 0.25rem;
@@ -124,27 +135,32 @@ button {
     font-size: 1.375rem;
     line-height: 1.875rem;
     background-color: rgb(148, 232, 247);
-}
+} */
 
 
 /* class hover certain images to rotate */
-.header-1:hover,
-.header-2:hover {
+.skills-1:hover,
+.skills-2:hover {
     transform: rotateY(360deg);
     transition: transform 4s ease-out;
     text-align: center;
 }
 
-.header-2 {
+/* style of skills image */
+.skills-2 {
     margin-left: 20rem;
 }
 
+/* style of unordered list */
 ul {
     list-style-type: none;
     color: black;
-
 }
+
 /* background color of table and padding extention */
+table {
+    margin-left: 15rem;
+}
 .row-1,
 .row-3 {
     padding: 0.875rem;
@@ -158,14 +174,7 @@ ul {
     font-size: 1.275rem;
 }
 
-/* class style contact details */
-.contact {
-    background-color: rgb(230, 90, 75);  
-    padding: 0.625rem 1.875rem 0.625rem 1.875rem;
-    margin: 0 37.5rem 0 37.5rem;
-    text-align: center;
-}
-
+/* style of unordered list of contact details */
 .contact-1 {
     color: rgb(240, 248, 255);
     text-align: center;
@@ -178,9 +187,10 @@ ul {
     margin-left: 37.5rem;
 }
 
+/* style of scroller, style of thumb */
     ::-webkit-scrollbar {
         width: 29px;
-        background-color: rgb(255, 255, 255);
+        background-color: pink;
 } 
      
     ::-webkit-scrollbar-track {
@@ -199,10 +209,13 @@ ul {
     background: #f76363; 
   }
 
+/* style of skills images */
 .skills {
 padding: 2.075rem 8.105rem;
+text-align: center;
     }
 
+/* style for gif indicating the scroller */
 .scroll {
     margin-bottom: 17.5rem;
     margin-left: 3.5rem;
@@ -213,7 +226,7 @@ padding: 2.075rem 8.105rem;
         background-image: url(../images/alarm-clock-art-background-1037993.jpg);
         background-size: 10%;
         width: 60rem;
-        height: 41.8rem;
+        height: 41.6rem;
         overflow: hidden;
 }
 /* footer background color padding top & bottom font-style */
@@ -225,6 +238,12 @@ padding: 2.075rem 8.105rem;
     font-family: 'Pacifico', cursive;
     margin-top: 0.0275rem;
     margin-bottom: 0.0275rem;
+    text-align: center;
+}
+
+/* style of home button */
+#top {
+    margin-left: 20rem;
 }
 /* responsive for different devices */
 /* responsive for mobile phone: */
