@@ -14,7 +14,7 @@ body {
 /* first heading background color, text and size */
 h1 {
     /* background-color: rgb(230, 90, 75, 0.400); */
-    color: white;
+    color: rgb(104, 102, 102);
     font-size: 1.825rem;
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
     text-transform: uppercase;
@@ -53,7 +53,7 @@ h3 {
 /* heading about paragraph */
 p {
     color: rgb(40, 76, 76);
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -109,25 +109,6 @@ color: black;
 }
 /* end of style */
 
-/* button style, text color, height/width, text style, size, box style*/
-button {
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    background: #fff;
-    width: 250px;
-    height: 50px;
-    font-family: 'Courgette', cursive;
-    font-size: 1.5rem ;
-    box-shadow: 0 5px 5px 0 rgba(32, 32, 32, 0.541);
-}
-
-button:hover {
-    
-    background: linear-gradient(white, rgb(255, 163, 178), white);
-}
-/* end of button style */
-
 /* class hover certain images to rotate */
 .skills-1:hover,
 .skills-2:hover {
@@ -149,7 +130,7 @@ ul {
 
 /* background color of table and padding extention */
 table {
-    margin-left: 15rem;
+    margin-left: 46rem;
 }
 .row-1,
 .row-3 {
@@ -177,6 +158,35 @@ table {
     margin-left: 37.5rem;
 }
 
+ul.breadcrumb,
+#top {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.404);
+    text-align: center;
+    margin: 5rem 8rem;
+    padding-right: 20rem;
+  }
+  ul.breadcrumb li,
+  #top {
+    display: inline;
+    font-size: 28px;
+  }
+  ul.breadcrumb li+li:before,
+  #top {
+    padding: 8px;
+    color: black;
+  }
+  ul.breadcrumb li a
+  #top {
+    color: #0a0a0a;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover,
+  #top {
+    color: grey;
+    text-decoration: underline;
+  }
 /* style of scroller, style of thumb */
     ::-webkit-scrollbar {
         width: 29px;
@@ -245,6 +255,7 @@ text-align: center;
 @media screen and (max-width:480px) {
 }
 
+
 @media screen and (max-width:600px) {
 /* responsive for tablets: */
 }
@@ -253,28 +264,3 @@ text-align: center;
     /* responsive for desktop: */
 }
 
-ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: #fffefe;
-    text-align: center;
-    margin: 5rem 8rem;
-    padding-right: 20rem;
-  }
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-  }
-  ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
-  ul.breadcrumb li a {
-    color: #0a0a0a;
-    text-decoration: none;
-  }
-  ul.breadcrumb li a:hover {
-    color: #1181e4;
-    text-decoration: underline;
-  }
