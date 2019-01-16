@@ -32,10 +32,10 @@ h1 {
     position: relative;
 }
 
-/* font text style heading 2 */
+/* style heading 2 */
 h2 {
     font-family: 'Charm', cursive;
-    font-size: 3.525rem;
+    font-size: 2.125rem;
     margin-left: 48rem;
     word-spacing: 7px;
     letter-spacing: 1px;
@@ -44,7 +44,7 @@ h2 {
 /* text style */
 h3 {
     font-family: 'Charm', cursive;
-    font-size: 3.5rem;
+    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -86,12 +86,7 @@ color: black;
 }
 
 /* iframe headers links */
-.ihead h2,
-#about,
-#education,
-#work,
-#latest,
-#skills{
+.ihead h2 {
     text-align: center;
     font-family: 'Charm', cursive;
     font-size: 1.675rem;
@@ -130,7 +125,8 @@ ul {
 
 /* background color of table and padding extention */
 table {
-    margin-left: 46rem;
+    float: right;
+    margin-right: 45rem;
 }
 .row-1,
 .row-3 {
@@ -187,6 +183,9 @@ ul.breadcrumb,
     color: grey;
     text-decoration: underline;
   }
+  ul.breadcrumb li a {
+    color: black;
+  }
 /* style of scroller, style of thumb */
     ::-webkit-scrollbar {
         width: 29px;
@@ -210,8 +209,8 @@ ul.breadcrumb,
   }
 
 .scroll {
-    margin-bottom: 19rem;
-    margin-left: 8rem;
+    margin-left: 20rem;
+
 }
 
 /* style of skills images */
@@ -220,20 +219,6 @@ padding: 2.075rem 8.105rem;
 text-align: center;
     }
 
-/* style for gif indicating the scroller *.scroll {
-    margin-bottom: 17.5rem;
-    margin-left: 3.5rem;
-}
-
-/* iframe style height/width, background image and size */
-.frame {
-        /* background-image: url(../images/alarm-clock-art-background-1037993.jpg); */
-        background-color: rgb(255, 255, 255);
-        /* background-size: 10%; */
-        width: 60rem;
-        height: 41.6rem;
-        
-}
 /* footer background color padding top & bottom font-style */
 .foot-1 p {
     background-color: rgba(70, 192, 192, 0.5);
