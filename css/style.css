@@ -93,7 +93,7 @@ a {
 }
 
 .edu {
-    background-color: rgb(250, 128, 114, 0,10);
+    background-color: rgb(250, 128, 114);
 }
 
 .edu-link {
@@ -186,13 +186,13 @@ ul {
     ::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgb(230, 90, 75); 
         border-radius: 15px;   
-        background: linear-gradient(rgb(219, 95, 116), rgb(119, 95, 116), rgb(190, 95, 116) ) ;
+        background: linear-gradient(rgb(218, 106, 125), aliceblue, rgb(218, 106, 125) ) ;
 } 
      
     ::-webkit-scrollbar-thumb {
         border-radius: 15px;
         -webkit-box-shadow: inset 0 0 6px rgb(170, 55, 55); 
-        background: linear-gradient (crimson, palevioletred, lightseagreen 75% );
+        background: rgb(179, 210, 238);
 }
 
     ::-webkit-scrollbar-thumb:hover {
