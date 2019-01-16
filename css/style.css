@@ -17,10 +17,11 @@ h1 {
     color: white;
     font-size: 1.825rem;
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
-    text-align: center;
-
 }
 
+.cv {
+    text-align: center;
+}
 /* class image margin right */
 .pic {
     margin-left: 6.25rem;
@@ -33,8 +34,7 @@ h1 {
 h2 {
     font-family: 'Monoton', cursive;
     font-size: 3.525rem;
-    
-    margin-left: 40rem;
+    margin-left: 48rem;
 }
 
 /* text style */
@@ -90,12 +90,10 @@ color: black;
     text-align: center;
     font-family: 'Charm', cursive;
     font-size: 1.675rem;
-    /* background-color: rgb(148, 227, 230); */
     padding-left: 0.125rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     text-decoration-line: underline;
-    /* background-image: url(../images/pink-background-small-alarm-clock-.jpg); */
 }
 
 /* style of div 'education' */
@@ -121,6 +119,7 @@ button {
 
 button:hover {
     background-color: rgb(134, 252, 252);
+    background: linear-gradient(#f193a3, rgb(255, 163, 178), rgb(255, 159, 175));
 }
 /* end of button style */
 
