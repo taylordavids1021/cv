@@ -13,10 +13,12 @@ body {
 
 /* first heading background color, text and size */
 h1 {
-    background-color: rgb(230, 90, 75, 0.400);
+    /* background-color: rgb(230, 90, 75, 0.400); */
     color: white;
     font-size: 1.825rem;
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .cv {
@@ -32,16 +34,19 @@ h1 {
 
 /* font text style heading 2 */
 h2 {
-    font-family: 'Monoton', cursive;
+    font-family: 'Charm', cursive;
     font-size: 3.525rem;
     margin-left: 48rem;
+    word-spacing: 7px;
+    letter-spacing: 1px;
 }
 
 /* text style */
 h3 {
-    font-family: 'Knewave', cursive;
+    font-family: 'Charm', cursive;
     font-size: 3.5rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 /* color of paragraph */
@@ -109,7 +114,7 @@ button {
     color: black;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(230, 90, 75, 0.05);
+    background: #fff;
     width: 250px;
     height: 50px;
     font-family: 'Courgette', cursive;
@@ -118,24 +123,10 @@ button {
 }
 
 button:hover {
-    background-color: rgb(134, 252, 252);
-    background: linear-gradient(#f193a3, rgb(255, 163, 178), rgb(255, 159, 175));
+    
+    background: linear-gradient(white, rgb(255, 163, 178), white);
 }
 /* end of button style */
-
-
-/* navbar bgc, text color, text decoration, margin, padding */
-/* .link-1 {
-    color: rgb(24, 27, 29);
-    padding: 0.025rem 0.25rem 0.025rem 0.25rem;
-    margin: 0.025rem 0.25rem 0.025rem 0.25rem;
-    text-decoration: none;
-    font-family: 'Pacifico', cursive;
-    font-size: 1.375rem;
-    line-height: 1.875rem;
-    background-color: rgb(148, 232, 247);
-} */
-
 
 /* class hover certain images to rotate */
 .skills-1:hover,
@@ -208,25 +199,30 @@ table {
     background: #f76363; 
   }
 
+.scroll {
+    margin-bottom: 19rem;
+    margin-left: 8rem;
+}
+
 /* style of skills images */
 .skills {
 padding: 2.075rem 8.105rem;
 text-align: center;
     }
 
-/* style for gif indicating the scroller */
-.scroll {
+/* style for gif indicating the scroller *.scroll {
     margin-bottom: 17.5rem;
     margin-left: 3.5rem;
 }
 
 /* iframe style height/width, background image and size */
 .frame {
-        background-image: url(../images/alarm-clock-art-background-1037993.jpg);
-        background-size: 10%;
+        /* background-image: url(../images/alarm-clock-art-background-1037993.jpg); */
+        background-color: rgb(255, 255, 255);
+        /* background-size: 10%; */
         width: 60rem;
         height: 41.6rem;
-        overflow: hidden;
+        
 }
 /* footer background color padding top & bottom font-style */
 .foot-1 p {
@@ -256,3 +252,29 @@ text-align: center;
 @media screen and (max-width: 768px) {
     /* responsive for desktop: */
 }
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #fffefe;
+    text-align: center;
+    margin: 5rem 8rem;
+    padding-right: 20rem;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0a0a0a;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #1181e4;
+    text-decoration: underline;
+  }
