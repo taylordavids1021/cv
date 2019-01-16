@@ -86,7 +86,9 @@ color: black;
 }
 
 /* iframe headers links */
-.ihead h2 {
+.ihead,
+h2,
+h3 {
     text-align: center;
     font-family: 'Charm', cursive;
     font-size: 1.675rem;
