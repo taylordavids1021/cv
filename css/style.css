@@ -130,6 +130,10 @@ table {
     float: right;
     margin-right: 45rem;
 }
+
+#work {
+    text-align: center;
+}
 .row-1,
 .row-3 {
     padding: 0.875rem;
@@ -211,8 +215,8 @@ ul.breadcrumb,
   }
 
 .scroll {
-    margin-left: 20rem;
-
+    margin-left: 10rem;
+    margin-left: 47%;
 }
 
 /* style of skills images */
