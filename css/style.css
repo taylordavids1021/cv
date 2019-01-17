@@ -246,8 +246,19 @@ text-align: center;
 /* responsive for different devices */
 /* responsive for mobile phone: */
 @media screen and (max-width:480px) {
+
+/* background color of table and padding extention */
+table {
+    float: right;
+    margin-right: 3%;
 }
 
+     /*style of gif-scroll padding and margin  */
+.scroll {
+    margin-left: 35%;
+    padding-top: 1%;
+}
+}
 
 @media screen and (max-width:600px) {
 /* responsive for tablets: */
