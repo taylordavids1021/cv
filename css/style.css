@@ -6,24 +6,21 @@ html {
 
 /* background color */
 body {
-    background-image: url(../images/alarm-clock-art-background-1037993.jpg);
+    /* background-image: url(../images/alarm-clock-art-background-1037993.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #EABDA8;
 }
 
 /* first heading background color, text and size */
 h1 {
     /* background-color: rgb(230, 90, 75, 0.400); */
     color: rgb(104, 102, 102);
-    font-size: 1.825rem;
     padding: 0.75rem 1.25rem 0.75rem 1.25rem;
     text-transform: uppercase;
     text-align: center;
 }
 
-.cv {
-    text-align: center;
-}
 /* class image margin right */
 .pic {
     margin-left: 6.25rem;
@@ -33,20 +30,20 @@ h1 {
 }
 
 /* style heading 2 */
-h2 {
-    font-family: 'Charm', cursive;
-    font-size: 2.125rem;
-    margin-left: 48rem;
-    word-spacing: 7px;
-    letter-spacing: 1px;
-}
 
-/* text style */
-h3 {
+.name {
     font-family: 'Charm', cursive;
-    font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
+    font-size: 4rem;
+    margin: 1.5rem 0 1.5rem 0;
+    
+}
+h2 {
+    font-family: 'Charm', cursive;
+    margin-left: 48rem;
+    word-spacing: 7px;
+    letter-spacing: 1px; 
 }
 
 /* color of paragraph */
@@ -54,9 +51,24 @@ h3 {
 p {
     color: rgb(40, 76, 76);
     font-size: 1.5rem;
-    text-align: center;
+    margin-left: 10rem;
+    background-color: rgba(255, 255, 255, 0.507);
 }
 
+#about,
+#education {
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+
+#work,
+#skills,
+#latest,
+#contact {
+    font-size: 2.5rem;
+    text-align: center;
+}
 /* paragraph text color */
 li {
 font-family: 'Courgette', cursive;
@@ -66,43 +78,43 @@ color: black;
 }
 
 /* link text-size, padding , bgc, center,margin*/
-.navbar li { 
-    font-size: 2.075rem ;
+.navbar li a { 
+    font-size: 1.875rem ;
     text-decoration: none;
-    color: aliceblue;
+    color: rgba(34, 36, 35, 0.582);
     padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
     margin: 0 0.625rem 0 0.625rem;
     display: inline;
     font-family: 'Courgette', cursive;
+    margin-left: 5rem;
+    text-shadow: rgb(49, 46, 45);
 }
 
-.navbar {
-    padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
-    margin: 0 0.625rem 0 0.625rem;
-    display: inline;
-    color : rgb(5, 5, 5);
-    text-decoration: none;
-    text-align: center;
+.navbar a:hover {
+    background-color: aliceblue;
+    color: rgba(59, 207, 160, 0.747);
+    transition: 0.10s;
+    border-radius: 70px;
 }
 
 /* iframe headers links */
-.ihead,
-h2,
-h3 {
-    text-align: center;
+.ihead {
+    text-align: left;
     font-family: 'Charm', cursive;
-    font-size: 1.675rem;
+    font-size: 2.675rem;
     padding-left: 0.125rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     text-decoration-line: underline;
+    margin: 2rem 0 2rem 0 ;
 }
 
 /* style of div 'education' */
 .edu-link {
     background-color: rgba(255, 143, 143, 0.932);
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
+    margin-left: 29.9rem;
+    
+    
 }
 /* end of style */
 
@@ -125,15 +137,21 @@ ul {
     color: black;
 }
 
-/* background color of table and padding extention */
-table {
-    float: right;
-    margin-right: 43rem;
+/* style for colummns */
+.column {
+    background-color: rgba(245, 242, 60, 0.712);
+    border-radius: 200px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 1rem;
 }
 
-#work {
-    text-align: center;
-}
+/* background color of table and padding extention */
+/* table {
+    float: right;
+    margin-right: 43rem;
+} */
+
 .row-1,
 .row-3 {
     padding: 0.875rem;
@@ -160,39 +178,11 @@ table {
     margin-left: 37.5rem;
 }
 
-/* style of nav bar */
-ul.breadcrumb,
-#top {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: rgba(255, 255, 255, 0.404);
-    text-align: center;
-    margin: 5rem 8rem;
-    padding-right: 20rem;
-  }
-  ul.breadcrumb li,
-  #top {
-    display: inline;
-    font-size: 28px;
-  }
-  ul.breadcrumb li+li:before,
-  #top {
-    padding: 8px;
-    color: black;
-  }
-  ul.breadcrumb li a
-  #top {
-    color: #0a0a0a;
-    text-decoration: none;
-  }
-  ul.breadcrumb li a:hover,
-  #top {
-    color: grey;
-    text-decoration: underline;
-  }
-  ul.breadcrumb li a {
-    color: black;
-  }
+.header-1 {
+    margin-left: 52rem;
+    margin-top: 1rem;
+}
+
 /* style of scroller, style of thumb */
     ::-webkit-scrollbar {
         width: 29px;
@@ -239,32 +229,16 @@ text-align: center;
     text-align: center;
 }
 
-/* style of home button */
-#top {
-    margin-left: 20rem;
-}
 /* responsive for different devices */
 /* responsive for mobile phone: */
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
 
-/* background color of table and padding extention */
-table {
-    float: right;
-    margin-right: 3%;
-}
 
-     /*style of gif-scroll padding and margin  */
-.scroll {
-    margin-left: 35%;
-    padding-top: 1%;
-}
-}
-
-@media screen and (max-width:600px) {
+@media screen and (min-width:600px) {
 /* responsive for tablets: */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     /* responsive for desktop: */
 }
 
