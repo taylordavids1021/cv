@@ -128,7 +128,7 @@ ul {
 /* background color of table and padding extention */
 table {
     float: right;
-    margin-right: 45rem;
+    margin-right: 43rem;
 }
 
 #work {
@@ -160,6 +160,7 @@ table {
     margin-left: 37.5rem;
 }
 
+/* style of nav bar */
 ul.breadcrumb,
 #top {
     padding: 10px 16px;
@@ -214,9 +215,10 @@ ul.breadcrumb,
     background: #f76363; 
   }
 
+  /*style of gif-scroll padding and margin  */
 .scroll {
-    margin-left: 10rem;
-    margin-left: 47%;
+    margin-left: 45%;
+    padding-top: 1%;
 }
 
 /* style of skills images */
