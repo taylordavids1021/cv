@@ -45,4 +45,4 @@ Technologies and Tools Used:
 
 ## Contributors
 
-Designed by Taylor Davids - 2019©
+Designed by Taylor Davids - © 2019
