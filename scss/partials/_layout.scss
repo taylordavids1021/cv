@@ -21,12 +21,14 @@
 }
 .box1 {
     grid-area: img;
+    cursor: grab; cursor: grab;
 }
 .skills-2 {
     width: 36%;
 }
 .box2 {
     grid-area: img2;
+    cursor: grab; cursor: grab;
 }
 .skills-3 {
     margin-top: 3rem;
@@ -34,19 +36,22 @@
 }
 .box3 {
     grid-area: img3;
+    cursor: grab; cursor: grab;
 }
 .skills-4  {
     width: 50%;
 }
 .box4 {
     grid-area: img4;
+    cursor: grab; cursor: grab;
 }
 .container-4 {
+    margin-left: 14%;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 700px);
     grid-area: 
-        "project project2 project3";
+        "project project2";
 }
 .container-4 img {
     width: 100%;
@@ -54,18 +59,22 @@
 .project {
     grid-area: project;
     filter: grayscale(100%);
+    transition: 1s ease-in-out;
 }
 .project2 {
     grid-area: project2;
     filter: grayscale(100%);
+    transition: 1s ease-in-out;
 }
 .project3 {
     grid-area: project;
     filter: grayscale(100%);
+    transition: 1s ease-in-out;
 }
 .project4 {
     grid-area: project2;
     filter: grayscale(100%);
+    transition: 1s ease-in-out;
 }
 .project:hover,
 .project2:hover, 
@@ -73,4 +82,8 @@
 .project4:hover, 
 .project5:hover {
     filter: grayscale(0%);
+    transition: 1s ease-in-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
+                -10px -10px 10px rgba(0, 0, 0, 0.3);
+    cursor: grab; cursor: grab;
 }

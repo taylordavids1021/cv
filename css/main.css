@@ -67,6 +67,10 @@ p {
 ::-webkit-scrollbar-thumb:hover {
   background: #f76363a6; }
 
+h3 {
+  margin-left: 14%;
+  font-family: 'Charm', cursive; }
+
 /* link text-size, padding , bgc, center,margin*/
 .navbar li a {
   font-size: 1.5rem;
@@ -202,6 +206,31 @@ h1 {
   width: 2.5rem;
   height: 2rem; }
 
+.fone,
+.email,
+.git {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */ }
+
+.fone .tooltiptext,
+.email .tooltiptext,
+.git .tooltiptext {
+  visibility: hidden;
+  width: 50%;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1; }
+
+.fone:hover .tooltiptext,
+.email:hover .tootiptext,
+.git:hover .tooltiptext {
+  visibility: visible; }
+
 /* work experience */
 .exp {
   display: grid;
@@ -218,58 +247,75 @@ h1 {
   width: 50%; }
 
 .box1 {
-  grid-area: img; }
+  grid-area: img;
+  cursor: grab;
+  cursor: grab; }
 
 .skills-2 {
   width: 36%; }
 
 .box2 {
-  grid-area: img2; }
+  grid-area: img2;
+  cursor: grab;
+  cursor: grab; }
 
 .skills-3 {
   margin-top: 3rem;
   width: 75%; }
 
 .box3 {
-  grid-area: img3; }
+  grid-area: img3;
+  cursor: grab;
+  cursor: grab; }
 
 .skills-4 {
   width: 50%; }
 
 .box4 {
-  grid-area: img4; }
+  grid-area: img4;
+  cursor: grab;
+  cursor: grab; }
 
 .container-4 {
+  margin-left: 14%;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2, 700px);
-  grid-area: "project project2 project3"; }
+  grid-area: "project project2"; }
 
 .container-4 img {
   width: 100%; }
 
 .project {
   grid-area: project;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  transition: 1s ease-in-out; }
 
 .project2 {
   grid-area: project2;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  transition: 1s ease-in-out; }
 
 .project3 {
   grid-area: project;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  transition: 1s ease-in-out; }
 
 .project4 {
   grid-area: project2;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+  transition: 1s ease-in-out; }
 
 .project:hover,
 .project2:hover,
 .project3:hover,
 .project4:hover,
 .project5:hover {
-  filter: grayscale(0%); }
+  filter: grayscale(0%);
+  transition: 1s ease-in-out;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3), -10px -10px 10px rgba(0, 0, 0, 0.3);
+  cursor: grab;
+  cursor: grab; }
 
 /* responsive for different devices */
 /* responsive for mobile phone: */
