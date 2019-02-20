@@ -1,0 +1,76 @@
+// layout //
+
+// work experience
+
+/* work experience */
+.exp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+// skills images
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    grid-template-areas:
+        "img img2 img3 img4";
+}
+/* style of skills image */
+.skills-1 {
+    width: 50%;
+}
+.box1 {
+    grid-area: img;
+}
+.skills-2 {
+    width: 36%;
+}
+.box2 {
+    grid-area: img2;
+}
+.skills-3 {
+    margin-top: 3rem;
+    width: 75%;
+}
+.box3 {
+    grid-area: img3;
+}
+.skills-4  {
+    width: 50%;
+}
+.box4 {
+    grid-area: img4;
+}
+.container-4 {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 700px);
+    grid-area: 
+        "project project2 project3";
+}
+.container-4 img {
+    width: 100%;
+}
+.project {
+    grid-area: project;
+    filter: grayscale(100%);
+}
+.project2 {
+    grid-area: project2;
+    filter: grayscale(100%);
+}
+.project3 {
+    grid-area: project;
+    filter: grayscale(100%);
+}
+.project4 {
+    grid-area: project2;
+    filter: grayscale(100%);
+}
+.project:hover,
+.project2:hover, 
+.project3:hover, 
+.project4:hover, 
+.project5:hover {
+    filter: grayscale(0%);
+}
