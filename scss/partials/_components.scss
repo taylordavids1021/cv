@@ -2,40 +2,23 @@
 
 /* link text-size, padding , bgc, center,margin*/
 .navbar li a { 
-    font-size: 1.5rem ;
-    text-decoration: none;
-    color: rgba(34, 36, 35, 0.582);
-    padding: 0.3125rem 0.625rem;
-    display: inline;
-    font-family: 'Charm', cursive;
-    margin-left: 2rem;
-    text-shadow: rgb(49, 46, 45);
+    @include navbar;
 }
 /* hover over navbar */
 .navbar a:hover {
-    color: rgba(25, 175, 25, 0.87);
+    color: rgba(25, 28, 175, 0.87);
+    text-shadow: 0 0 20px rgba(25, 28, 175, 0.87);
     transition: 0.10s;
 }
 /* first heading background color, text and size */
 /* style heading 2 */
 .name, 
 h1 {
-    color: rgb(104, 102, 102);
-    font-family: 'Charm', cursive;
-    font-size: 3rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 1.5rem 0; 
-    word-spacing: 7px;
+    @include header;
 }
-/* paragraphs */
-.pgrph {
-    padding: 2rem;
-    box-shadow: 5px 5px 5px 5px rgba(99, 98, 98, 0.87);
-    transition: 1s ease-in;
-}
-.pgrph:hover {
-    padding: 3rem;
+
+p:hover {
+    padding: 1rem;
     transition: 1s ease-in-out;
     box-shadow: 6px 6px 6px 6px rgba(99, 98, 98, 0.87);
 }
@@ -50,30 +33,16 @@ h1 {
     padding: 1rem;
     font-size: 2rem;
     text-align: center;
-    font-family: 'Charm', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 /* end of jump link style */
 
 /* iframe headers links */
-.ihead {
+.schools {
     text-align: center;
-    font-family: 'Charm', cursive;
-    font-size: 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
     text-decoration-line: underline;
-}
-
-/* style of div 'education' */
-.edu-link {
-    margin: 2rem;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 5px 5px 5px 5px rgba(99, 98, 98, 0.87);
-    transition: 1s ease-in;
-}
-.edu-link:hover {
-    padding: 2rem;
-    transition: 1s ease-in-out;
-    box-shadow: 6px 6px 6px 6px rgba(99, 98, 98, 0.87);
 }
 /* end of style */
 
@@ -87,49 +56,28 @@ h1 {
     text-align: center;
 }
 
-.exp p:hover {
-    color: red;
-    font-family: 'Charm', cursive;
+.exp {
+    text-align: center;
 }
-.head-1 {
+.box-1 {
     padding: 2rem;
     margin: 1.5rem;
     background-color: #f76363a6;
     text-align: center;
 }
-/*style of gif-scroll padding and margin  */
-.scroll {
-    margin-left: 43%;
-    padding-top: 1%;
-}
+
 /* style of unordered list of contact details */
-.contact-1 {
-    color: rgb(240, 248, 255);
-    text-align: center;
-    font-size: 1.875rem;
-    font-weight: bold;
-}
-.contact-1 img {
-    width: 5%; 
-}
 .email,
 .git,
 .fone {
     transition: 1s ease-in;
 }
-.email:hover,
-.git:hover,
-.fone:hover {
-    padding: 1rem;
-    transition: 1s ease-in-out;
-    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.555);
-}
 /* end of style */
 /* footer background color padding top & bottom font-style */
 .foot-1 {
     color: black;
-    font-family: 'Charm', cursive;
-    background-color: rgba(128, 128, 128, 0.13);
+    font-family: 'Dosis', sans-serif;
+    background-color: rgba(0, 0, 0, 0.493);
 }
 .foot-p {
     padding: 1rem;
@@ -138,30 +86,4 @@ h1 {
 .foot-img {
     width: 2.5rem;
     height:2rem;
-}
-
-.fone,
-.email,
-.git {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-.fone .tooltiptext,
-.email .tooltiptext,
-.git .tooltiptext{
-    visibility: hidden;
-    width: 50%;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
-.fone:hover .tooltiptext,
-.email:hover .tootiptext,
-.git:hover .tooltiptext {
-    visibility: visible;
 }

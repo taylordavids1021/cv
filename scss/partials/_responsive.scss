@@ -46,7 +46,7 @@
     /* style heading 2 */
     .name, 
     h1,
-    h3 {
+    h2 {
         font-size: 1rem;
         text-align: left;
         margin: 0.5rem 2rem;
@@ -56,11 +56,11 @@
     p {
         color: rgb(40, 76, 76);
         font-size: 1rem;
-        margin-left: 3rem;
+        margin: 0;
     }
     /* paragraphs */
     .pgrph{
-        margin-right: 20rem;
+        margin: 0;
         padding: 1rem;
     }
     /* styles of jump links */
@@ -73,51 +73,49 @@
         padding: 1rem;
         font-size: 1rem;
         text-align: left;
-        margin: 0.5rem 3rem;
+        margin: 0.5rem 2rem;
     }
     /* end of jump link style */   
     /* style of div 'education' */
     .edu-link {
-        margin-right: 18rem;
+        margin: 0;
         padding: 0.6rem;
     } 
     /* iframe headers links */
     .ihead h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     /* work experience */
     .exp {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 800px;
     }
     .head-1 {
         padding: 1rem;
         margin-right: 30rem;
     }
-     /*style of gif-scroll padding and margin  */
-     .scroll {
-        margin-left: 10%;
-    }
     /* style of skills image */
-    .skills-1 {
-        width: 12.8%;
-        margin: 0;
+    // skills images
+    .container-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-gap: 1rem;
+        grid-template-areas:
+            "img img2"
+            "img3 img4"
     }
-    .skills-2 {
-        margin-left: 1.3rem;
-        padding-top: 1rem;
+    .container-4 {
+        margin-left: 2rem;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 300px;
+        grid-area: 
+            "project"
+            "project2";
     }
-    .header-1 {
-        margin: 0;
-        padding: 1rem;
-        margin-left: 2.6rem;
-        width: 15%;
+    .exp p {
+        margin-left: 2rem;
     }
-    /* latest work */
-    .work-prgh {
-        margin-right: 18rem;
-    }
-    
     /* style of unordered list of contact details */
     .contact-1 p {
         font-size: 0.8rem;

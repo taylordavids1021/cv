@@ -1,0 +1,23 @@
+// mixins //
+
+// heading
+@mixin header {
+  color: rgb(0, 0, 0);
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 1.5rem 0; 
+  word-spacing: 7px;
+  
+}
+// mixin for navbar
+@mixin navbar {
+    font-size: 1.5rem ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.3125rem 0.625rem;
+    display: inline;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 2rem;
+    text-shadow: rgb(49, 46, 45);
+}

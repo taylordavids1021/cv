@@ -7,16 +7,17 @@
     <!-- sass:css file link -->
     <link rel="stylesheet" href="css/main.css">
     <!-- javaScript file link -->
-    <link rel="stylesheet" href="js/javascript.js">
+    <link rel="stylesheet" href="js/main.js">
     <title>CV</title>
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Knewave|Monoton|Courgette|Pacifico|Charm" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Dosis" rel="stylesheet">
 </head>
 <body>  
     <!--insert heading-->
     <!--size of text-->
     <div class="container">
-        <nav>
+        <header>
+            <nav>
             <!--jumplinks navbar-->
             <ul class="navbar" style="background: rgba(0, 0, 0, 0);">
                 <li><a href="#about"><b>ABOUT</b></a></li>
@@ -26,17 +27,18 @@
                 <li><a href="#latest"><b>LATEST PROFILE</b></a></li>
                 <li><a href="#contact"><b>CONTACT DETAILS</b></a></li>
             </ul> 
-        </nav>
-        <!--image-->
-        <img  class="pic" src="images/tay.jpg"> 
-        <!-- <h2>My Name is</h2> -->
-        <div class="name">
-            <h2>Taylor Davids</h2>
-            <h1>Full Stack web developer 💻</h1>
-        </div>
+            </nav>
+            <!--image-->
+            <img  class="pic" src="images/tay.jpg"> 
+            <!-- <h2>My Name is</h2> -->
+            <div class="name">
+                <h2>Taylor Davids</h2>
+                <h1>Full Stack web developer 💻</h1>
+            </div>
+        </header>
         <div class="container-1">
             <h2 id="about">About</h2>
-            <p class="pgrph">
+            <p>
             I believe in self-motivation because positive self talk is very important.
             I am a very hard working person and I love animals.
             My personality shines as bright as the sun and as blooms as beautiful as a flower and when I mean by my personality I mean that I am very open-minded, I am a peoples person and i'm always finding a way to accomplish my tasks, goals in fact very determinded and organised.
@@ -44,7 +46,7 @@
             <h2 id="education">Education</h2>
             <!--list of unordered list, class div, class ul, class link-->
             <div class="edu-link">
-                <ul class="ihead">
+                <ul class="schools">
                     <!-- college -->
                     <h2>Life Choices</h2>
                     <li><b>Year :</b> 2018 - 2019</li>
@@ -65,19 +67,19 @@
             <h2  id="work">Work Experience</h2>
             <div class="exp">
                 <div class="columns-1">
-                    <p class="head-1">Organization</p>
+                    <p class="box-1">Organization</p>
                     <p>Diversity facilitator in action</p>
                     <p>City of cape town</p>
                     <p>Rage</p>
                 </div>
                 <div class="columns-2">
-                    <p class="head-1">Duration</p>
+                    <p class="box-1">Duration</p>
                     <p>19 February - 24 May 2018</p>
                     <p>01 March - 10 June 2016</p>
                     <p>01 March - September 2015</p>
                 </div>
                 <div class="columns-3">
-                    <p class="head-1">Position</p>
+                    <p class="box-1">Position</p>
                     <p>Personal Assistant</p>
                     <p>Co-operation student administrator</p>
                     <p>Sales assistant</p>
@@ -128,21 +130,33 @@
             </div>
            
         </div>
-        <div class="container-5">
-            <!--Contact details-->
-            <h2 id="contact">Contact Details :</h2>
-            <div class="contact-1">
-                <!-- img -->
-                <img class="fone" src="../cv_project/images/telephone.png">
-                <p class="tooltiptext">Mobile : +27 84 823 9044</p>
-                <!-- img -->
-                <img  class="email" src="../cv_project/images/gmail.png">
-                <p class="tooltiptext"></p>Email : Taylordavids997@gmail.com</p>
-                <!-- img -->
-                <img class="git" src="../cv_project/images/git-logo-png-5.png">
-                <p class="tooltiptext"></p>Github : Taylordavids1021</p>
-            </div>      
-        </div>
+        <!--Contact details-->
+        <h2 id="contact">Contact Details :</h2>
+            <!-- img -->
+            <article class="tab">
+                <div class="fone">
+                    <div>
+                        <img src="../cv_project/images/icons8-whatsapp-48.png">
+                    </div>
+                    <p>+27 84 823 9044</p>
+                </div>
+                <!-- button image -->
+                <div class="email">
+                    <div>
+                        <img src="../cv_project/images/icons8-gmail-48.png">
+                    </div>
+                    <p>taylordavids997@gmail.com</p>
+                </div>
+                <!-- button image -->
+                <div class="git">
+                    <div>
+                        <a href="https://github.com/taylordavids1021"><img src="../cv_project/images/icons8-github-48.png"></a>
+                    </div>
+                    <p>taylordavids1021</p>
+                </div>
+            </article>
+        <!-- End of style -->
+
         <!--footer code-->
         <footer class="foot-1">
             <p class="foot-p">Designied by Taylor Davids © 2019 <img class="foot-img" src="..//cv_project/images/Code.org_logo.svg.png"></p> 
