@@ -16,12 +16,6 @@
 h1 {
     @include header;
 }
-
-p:hover {
-    padding: 1rem;
-    transition: 1s ease-in-out;
-    box-shadow: 6px 6px 6px 6px rgba(99, 98, 98, 0.87);
-}
 /* styles of jump links */
 #about,
 #education,
@@ -55,14 +49,17 @@ p:hover {
     transition: transform 4s ease-out;
     text-align: center;
 }
-
+.edu-link {
+    padding: 0.7rem;
+    background-color: rgba(0, 0, 0, 0.493)
+}
 .exp {
     text-align: center;
 }
 .box-1 {
     padding: 2rem;
     margin: 1.5rem;
-    background-color: #f76363a6;
+    background-color: rgba(25, 28, 175, 0.87);
     text-align: center;
 }
 
@@ -74,16 +71,16 @@ p:hover {
 }
 /* end of style */
 /* footer background color padding top & bottom font-style */
-.foot-1 {
+footer{
     color: black;
     font-family: 'Dosis', sans-serif;
     background-color: rgba(0, 0, 0, 0.493);
 }
-.foot-p {
+footer p {
     padding: 1rem;
     margin: 0;
 }
 .foot-img {
     width: 2.5rem;
-    height:2rem;
+    height:2.5rem;
 }
