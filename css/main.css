@@ -30,12 +30,11 @@ body {
 
 /* navbar */
 nav {
-  padding: 1%;
+  padding: 0.5rem;
   text-align: center; }
 
 /*  text color */
 li {
-  padding: 0 0 0 1.5625rem;
   color: black;
   display: inline; }
 
@@ -74,7 +73,7 @@ h3 {
   padding: 0.3125rem 0.625rem;
   display: inline;
   font-family: 'Dosis', sans-serif;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   text-shadow: #312e2d; }
 
 /* hover over navbar */
@@ -89,9 +88,9 @@ h3 {
 h1 {
   color: black;
   font-family: 'Dosis', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
-  word-spacing: 7px; }
+  word-spacing: 6px; }
 
 /* styles of jump links */
 #about,
