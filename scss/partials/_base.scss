@@ -9,31 +9,28 @@ html {
 }
 header {
     height: 100vh;
-    background-image: url(../images/blackboard-business-chalkboard-355988.jpg);
+    background: linear-gradient(rgba(65, 209, 149, 0.445),rgba(65, 67, 69, 0.795)), url(../images/blackboard-business-chalkboard-355988.jpg);
     background-size: 100% 100%;
 }
 /* container */
 .container {
     display: grid;
     margin: 0;
+    overflow: hidden;
 }
 /* background color */
 body {
-    background: linear-gradient(rgba(110, 129, 121, 0.719), rgba(65, 67, 69, 0.795));
+    background: linear-gradient(rgba(128, 128, 128, 0.664),rgba(65, 67, 69, 0.795)), url(../images/clouds-cloudscape-cloudy-158163.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
-    padding: 0
-}
-/* class image margin right */
-.pic {
-    margin-left: 42%;
-    width: 15%;
-    transition: 2.5s ease-in;
-    opacity: 0;
+    padding: 0;
+    background-attachment: fixed;
 }
 /* navbar */
 nav {
     padding: 1%;
-    text-align: center;
+    text-align: center
 }
 /*  text color */
 li {
@@ -69,3 +66,13 @@ h3 {
     background: rgba(102, 114, 124, 0.678);
 }
 
+// footer
+footer{
+    background-color: rgba(0, 0, 0, 0.493);
+}
+footer p {
+    font-family: 'Dosis', sans-serif;
+    padding: 1rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}

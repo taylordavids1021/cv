@@ -4,64 +4,27 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    /* class image margin right */
-    .pic {
-        margin-left: 4rem;
-        width: 15%;;
-        transition: 1s ease-in;
-    }
-    /* navbar */
-    ul {
-        margin: 0;
-        padding: 0;
+    // navarbar
+    nav {
         text-align: left;
+        font-size: 0.5rem;
+        word-spacing: 0.2rem;
         display: block;
     }
- 
-    /* link text-size, padding , bgc, center,margin*/
-    .navbar li a { 
-        font-size: 1rem ;
-        text-align: left;
-        margin: 0;
-        padding: 3px;
-        padding: 0;
+    li {
+        padding: 0.3rem;
+        color: black;
         display: block;
-        margin: 0.2rem;
     }
-    /* grid */
-    .container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "title"
-            "heading"
-            "pgrph"
-    }
-    #about {
-        grid-area: heading; 
-    }
-    .pgrph {
-        grid-area: pgrph;
-    }
+    /* first heading background color, text and size */
     /* style heading 2 */
-    .name, 
-    h1,
-    h2 {
-        font-size: 1rem;
+    .name {
+        font-size: 2rem;
         text-align: left;
-        margin: 0.5rem 2rem;
-    }
-    /* color of paragraph */
-    /* heading about paragraph */
-    p {
-        color: rgb(40, 76, 76);
-        font-size: 1rem;
-        margin: 0;
-    }
-    /* paragraphs */
-    .pgrph{
-        margin: 0;
-        padding: 1rem;
+        padding: 0.3rem;
+        margin-top: 5rem;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.3rem;
     }
     /* styles of jump links */
     #about,
@@ -70,74 +33,65 @@
     #skills,
     #latest,
     #contact {
-        padding: 1rem;
-        font-size: 1rem;
-        text-align: left;
-        margin: 0.5rem 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: left;
     }
-    /* end of jump link style */   
-    /* style of div 'education' */
+    .about-p,
     .edu-link {
-        margin: 0;
-        padding: 0.6rem;
-    } 
+        padding: 0.3rem;
+        margin: 0.4rem;
+        background-color: rgba(0, 0, 0, 0.219);
+    }
+    /* heading about paragraph */
+    p {
+        padding: 0.2rem;
+        text-align: left;
+        font-size: 0.8rem;
+        display: block;
+    }
     /* iframe headers links */
-    .ihead h2 {
-        font-size: 1rem;
+    .schools {
+        text-align: left;
+        font-size: 0.8rem;
+        padding-left: 0;
+
+        ul {
+            text-align: left;
+        }
+
+        li {
+            padding-left: 0;
+            display: block;
+        }
+    }
+    // work experience
+    .exp {
+        text-align: left;
+    }
+    .box-1 {
+        padding: 0.5rem;
+        margin: 0;
+        background-color: rgba(86, 86, 88, 0.418);
+        box-shadow: 2px 2px 2px rgba(91, 91, 94, 0.87);
+        text-align: left;
     }
     /* work experience */
     .exp {
-        display: grid;
-        grid-template-columns: 800px;
+        grid-template-columns: 1fr;
     }
-    .head-1 {
-        padding: 1rem;
-        margin-right: 30rem;
-    }
-    /* style of skills image */
     // skills images
     .container-3 {
-        display: grid;
-        grid-template-columns: repeat(2, 150px);
-        grid-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0;
         grid-template-areas:
-            "img img2"
-            "img3 img4"
+            "img img2 img3 img4";
     }
-    .container-4 {
-        margin-left: 2rem;
-        display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: 300px;
-        grid-area: 
-            "project"
-            "project2";
+    /* style of skills image */
+    .fa,
+    .fab {
+        font-size: 3rem;
     }
-    .exp p {
-        margin-left: 2rem;
-    }
-    /* style of unordered list of contact details */
-    .contact-1 p {
-        font-size: 0.8rem;
-        margin-right: 20rem;
-    }
-    /* imgs of contact form */
-    .contact-1 img  {
-        width: 10%;
-        margin-right: 20rem;
-        padding: 0;
-    }
-    .email:hover,
-    .git:hover,
-    .fone:hover {
-        padding: 0.5rem;
-        box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.555);
-    }
-    /* footer background color padding top & bottom font-style */
-    .foot-1 p {
-        margin: 0;
-    }
-   
 }
 
 /* media queries */

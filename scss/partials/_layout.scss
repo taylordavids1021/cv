@@ -14,33 +14,24 @@
         "img img2 img3 img4";
 }
 /* style of skills image */
-.skills-1 {
-    width: 50%;
+.fa,
+.fab {
+  font-size: 10rem;
 }
 .box1 {
     grid-area: img;
     cursor: grab; cursor: grab;
 }
-.skills-2 {
-    width: 36%;
-}
 .box2 {
     grid-area: img2;
     cursor: grab; cursor: grab;
 }
-.skills-3 {
-    margin-top: 3rem;
-    width: 75%;
-}
 .box3 {
-    grid-area: img3;
+    grid-area: img4;
     cursor: grab; cursor: grab;
 }
-.skills-4  {
-    width: 50%;
-}
 .box4 {
-    grid-area: img4;
+    grid-area: img3;
     cursor: grab; cursor: grab;
 }
 .container-4 {
