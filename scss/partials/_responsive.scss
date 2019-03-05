@@ -4,27 +4,47 @@
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    // navarbar
+      
+    .navbar li a {
+        @include nav ;
+    }
+    /* navbar */
     nav {
         text-align: left;
-        font-size: 0.5rem;
-        word-spacing: 0.2rem;
-        display: block;
     }
+    /*  text color */
     li {
-        padding: 0.3rem;
-        color: black;
+        padding: 0 0 0 1.5625rem;
         display: block;
     }
+   
+    // navarbar
+    // nav li a {
+        // text-align: left;
+        // font-size: 0.5rem;
+        // word-spacing: 0.2rem;
+        // display: block;
+    //     @include nav ;
+    // }
+    // li {
+    //     font-size: 1rem;
+    //     padding: 0.3rem;
+    //     color: black;
+    //     display: block;
+    // }
     /* first heading background color, text and size */
     /* style heading 2 */
     .name {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: left;
         padding: 0.3rem;
         margin-top: 5rem;
+        margin-left: 0.5rem;
         word-spacing: 0.2rem;
         letter-spacing: 0.3rem;
+    }
+    h3 {
+        font-size: 1.3rem;
     }
     /* styles of jump links */
     #about,
@@ -34,26 +54,26 @@
     #latest,
     #contact {
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: left;
     }
     .about-p,
     .edu-link {
-        padding: 0.3rem;
-        margin: 0.4rem;
-        background-color: rgba(0, 0, 0, 0.219);
+        padding: 0.2rem;
+        margin: 0;
+        
     }
     /* heading about paragraph */
     p {
         padding: 0.2rem;
         text-align: left;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         display: block;
     }
     /* iframe headers links */
     .schools {
         text-align: left;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         padding-left: 0;
 
         ul {
@@ -92,6 +112,55 @@
     .fab {
         font-size: 3rem;
     }
+    .container-4 {
+        grid-gap: 0;
+        grid-template-columns: 250px;
+        grid-area: 
+            "project",
+            "project2";
+    }
+    .container-4 img {
+        width: 40%;
+    }
+    .container-4 h3 {
+        text-align: left;
+    }
+    .container-4 div {
+        width: 40rem; 
+        padding: 1rem;
+        margin: auto;
+    }
+    .fone,
+    .git,
+    .email {
+        width: 5rem;
+        margin: auto;
+        text-align: left;
+    }
+
+    .fone div {
+        width: 2.5rem;
+        height: 2rem;
+        height: 5rem;
+        margin: auto;
+    }
+
+    .email div {
+        width: 2.5rem;
+        height: 2rem;
+        margin: auto;
+    }
+    .git div {
+        width: 2.5rem;
+        height: 2rem;
+        margin: auto;
+    }
+    .tab p {
+        font-size: 0.8rem;
+    }
+    footer p {
+        font-size: 1rem;
+    }
 }
 
 /* media queries */
@@ -101,62 +170,26 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     /* responsive for tablets: */
-    /* class image margin right */
-    .pic {
-        margin-left: 20rem;
-        width: 15%;;
-        transition: 1s ease-in;
-    }
-    /* navbar */
-    ul {
-        margin: 0;
-        padding: 0;
+     // navarbar
+     nav {
         text-align: center;
+        font-size: 0.5rem;
+        word-spacing: 0;
     }
- 
-    /* link text-size, padding , bgc, center,margin*/
-    .navbar li a { 
-        font-size: 1.5rem;
-        margin: 0;
-        padding: 3px;
-        margin: 0.2rem;
+    li {
+        padding: 0.1rem;
+        color: black;
     }
-    /* grid */
-    .container {
-        font-size: 1.3rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "title"
-            "heading"
-            "pgrph"
-    }
-    #about {
-        grid-area: heading; 
-    }
-    .pgrph {
-        grid-area: pgrph;
-    }
+    /* first heading background color, text and size */
     /* style heading 2 */
-    .name, 
-    h1,
-    h3 {
-        font-size: 1.5rem;
+    .name {
+        font-size: 3rem;
         text-align: center;
-        margin: 0.5rem 2rem;
-    }
-    /* color of paragraph */
-    /* heading about paragraph */
-    p {
-        color: rgb(40, 76, 76);
-        font-size: 1rem;
-        margin-left: 3rem;
-    }
-    /* paragraphs */
-    .pgrph{
-        font-size: 1.3rem;
-        margin-left: 10rem;
-        padding: 1rem;
+        padding: 0.3rem;
+        margin-top: 12rem;
+        margin-left: 0.7rem;
+        word-spacing: 0.3rem;
+        letter-spacing: 0.3rem;
     }
     /* styles of jump links */
     #about,
@@ -165,107 +198,280 @@
     #skills,
     #latest,
     #contact {
-        padding: 1rem;
-        font-size: 1.8rem;
-        text-align: center;
-        margin: 0.5rem 3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
     }
-    /* end of jump link style */   
-    /* style of div 'education' */
+    .about-p,
     .edu-link {
-        margin-left: 2rem;
-        padding: 0.6rem;
-    } 
-    /* iframe headers links */
-    .ihead h2 {
-        font-size: 1.2rem;
+        padding: 0.5rem;
+        margin: 0;
+        
     }
+    /* heading about paragraph */
+    p {
+        padding: 0.1rem;
+        text-align: left;
+        font-size: 1.4rem;
+        display: block;
+    }
+    /* iframe headers links */
+    .schools {
+        text-align: left;
+        font-size: 1.5rem;
+        padding-left: 0;
+
+        ul {
+            text-align: left;
+        }
+
+        li {
+            padding-left: 0;
+            display: block;
+        }
+    }
+    // work experience
     /* work experience */
     .exp {
-        display: grid;
-        grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-areas: 
+        "box1 box2 box3"
+    }
+    .columns-1 {
+        grid-area: box1;
+    }
+    .columns-2 {
+        grid-area: box2;
+    }
+    .columns-3 {
+        grid-area: box3;
+    }
+    .exp p {
+        font-size: 1rem;
+    }
+    .box-1 {
+        padding: 1rem;
+        margin: 0;
+        background-color: rgba(86, 86, 88, 0.767);
+        box-shadow: 2px 2px 2px rgba(91, 91, 94, 0.87);
+        text-align: left;
     }
 
-     /*style of gif-scroll padding and margin  */
-     .scroll {
-        margin-left: 38%;
+    // skills images
+    .container-3 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0;
+        grid-template-areas:
+            "img img2",
+            "img3 img4";
     }
     /* style of skills image */
-    .skills-1 {
-        width: 12.8%;
-        margin: 0;
+    .fa,
+    .fab {
+        font-size: 4.5rem;
     }
-    .skills-2 {
-        margin-left: 1.3rem;
-        padding-top: 1rem;
+    .container-4 {
+        grid-gap: 0;
+        grid-template-columns: repeat(2, 400px);
+        grid-area: 
+            "project project2";
     }
-    .header-1 {
-        margin: 0;
+    .container-4 img {
+        width: 50%;
+    }
+    .container-4 h3 {
+        text-align: left;
+    }
+    .container-4 div {
+        width: 40rem; 
         padding: 1rem;
-        margin-left: 15.5rem;
-        width: 40%;
+        margin: auto;
     }
-    /* latest work */
-    .work-prgh {
-        margin-left: 12rem;
-        font-size: 1.2rem;
-    }
-    
-    /* style of unordered list of contact details */
-    .contact-1 p {
-        font-size: 1.5rem;
-        margin-left: 2rem;
-    }
-    /* imgs of contact form */
-    .contact-1 img  {
-        margin-left: 2rem;
-        padding: 0;
-    }
-    .email:hover,
-    .git:hover,
-    .fone:hover {
-        padding: 0.5rem;
-        box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.555);
-    }
-    /* footer background color padding top & bottom font-style */
-    .foot-1 p {
-        margin: 0;
-        font-size: 1.3rem;
+    .fone,
+    .git,
+    .email {
+        width: 5rem;
+        height: 5rem;
+        margin: auto;
+        text-align: left;
     }
 
-    .container-2 p {
-        text-align: center;
-        margin-left: 1rem;
+    .fone div {
+        width: 2.5rem;
+        height: 2rem;
+        margin: auto;
     }
 
-    .head-1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+    .email div {
+        width: 2.5rem;
+        height: 2rem;
+        margin: auto;
+    }
+    .git div {
+        width: 2.5rem;
+        height: 2rem;
+        margin: auto;
+    }
+    .tab p {
+        font-size: 0.9rem;
+    }
+    footer p {
+        font-size: 2rem;
     }
 }
 
-@media screen and (min-width: 1440px){
-    /* link text-size, padding , bgc, center,margin*/
-    .navbar li a { 
-        font-size: 1.5rem;
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+     // navarbar
+     nav {
+        text-align: center;
+        font-size: 0.5rem;
+        word-spacing: 0;
+    }
+    li {
+        padding: 0.1rem;
+        color: black;
+    }
+    /* first heading background color, text and size */
+    /* style heading 2 */
+    .name {
+        font-size: 3rem;
+        text-align: center;
+        padding: 0.3rem;
+        margin-top: 12rem;
+        margin-left: 0.7rem;
+        word-spacing: 0.3rem;
+        letter-spacing: 0.3rem;
+    }
+    /* styles of jump links */
+    #about,
+    #education,
+    #work,
+    #skills,
+    #latest,
+    #contact {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    }
+    .about-p,
+    .edu-link {
+        padding: 0.5rem;
         margin: 0;
-        padding: 1px;
+        
+    }
+    /* heading about paragraph */
+    p {
+        padding: 0.1rem;
+        text-align: left;
+        font-size: 1.4rem;
+        display: block;
+    }
+    /* iframe headers links */
+    .schools {
+        text-align: center;
+        font-size: 1.5rem;
+        padding-left: 0;
+
+        ul {
+            text-align: left;
+        }
+
+        li {
+            padding-left: 0;
+            display: block;
+        }
+    }
+    // work experience
+    /* work experience */
+    .exp {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    grid-template-areas: 
+        "box1 box2 box3"
+    }
+    .columns-1 {
+        grid-area: box1;
+    }
+    .columns-2 {
+        grid-area: box2;
+    }
+    .columns-3 {
+        grid-area: box3;
+    }
+    .exp p {
+        font-size: 1rem;
+    }
+    .box-1 {
+        padding: 2rem;
         margin: 0.2rem;
+        background-color: rgba(86, 86, 88, 0.767);
+        box-shadow: 2px 2px 2px rgba(91, 91, 94, 0.87);
+        text-align: left;
     }
-    /* style of unordered list of contact details */
-    .contact-1 p {
-        font-size: 1.5rem;
-        margin-left: 1rem;
+
+    // skills images
+    .container-3 {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0;
+        grid-template-areas:
+            "img img2",
+            "img3 img4";
     }
-    /* imgs of contact form */
-    .contact-1 img  {
-        margin-left: 1rem;
-        padding: 0;
+    /* style of skills image */
+    .fa,
+    .fab {
+        font-size: 5.5rem;
     }
-    .header-1 {
-        margin: 0;
+    .container-4 {
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(2, 530px);
+        grid-area: 
+            "project project2";
+    }
+    .container-4 img {
+        width: 70%;
+    }
+    .container-4 h3 {
+        text-align: left;
+    }
+    .container-4 div {
+        width: 40rem; 
         padding: 1rem;
-        margin-left: 32rem;
-        width: 30%;
+        margin: auto;
+    }
+    .fone,
+    .git,
+    .email {
+        width: 5rem;
+        height: 5rem;
+        margin: auto;
+        text-align: left;
+    }
+
+    .fone div {
+        width: 3rem;
+        height: 2rem;
+        margin: auto;
+    }
+
+    .email div {
+        width: 3rem;
+        height: 2rem;
+        margin: auto;
+    }
+    .git div {
+        width: 3rem;
+        height: 2rem;
+        margin: auto;
+    }
+    .tab p {
+        font-size: 0.9rem;
+    }
+    footer p {
+        font-size: 2rem;
     }
 }

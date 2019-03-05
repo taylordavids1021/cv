@@ -6,10 +6,9 @@
   font-family: 'Dosis', sans-serif;
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 3rem; 
+  margin-top: 35rem; 
   word-spacing: 1rem;
   letter-spacing: 1rem;
-  
 }
 
 // paragraph 
@@ -17,13 +16,10 @@
   padding: 0.7rem;
   margin: 1.5rem;
   background-color: rgba(0, 0, 0, 0.219);
-  // box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.144),
-  //             -5px -5px 5px,
-  //             -3px -3px 3px;
 }
 // mixin for navbar
 @mixin navbar {
-    font-size: 1.5rem ;
+    font-size: 2rem ;
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 0.3125rem 0.625rem;
@@ -32,4 +28,13 @@
     margin-left: 2rem;
     text-shadow: rgb(49, 46, 45);
     word-spacing: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@mixin nav {
+  font-size: 1.7rem;
+  padding: 0.3125rem 0.625rem;
+  display: block;
+  margin-left: 1rem;
 }
