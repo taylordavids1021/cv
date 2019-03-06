@@ -40,7 +40,6 @@
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 1.5rem;
-    text-decoration-line: underline;
 }
 /* end of style */
 /* class hover certain images to rotate */
@@ -51,6 +50,10 @@
 
 .schools h2 {
     font-weight: bolder;
+}
+.edu {
+    text-decoration: underline;
+    font-weight: bold;
 }
 .exp {
     text-align: center;
@@ -66,7 +69,11 @@
     background-color: rgba(0, 0, 0, 0.219);
     text-align: center;
 }
-
+/* style of skills image */
+.fa,
+.fab {
+  font-size: 10rem;
+}
 /* style of unordered list of contact details */
 .email,
 .git,
@@ -75,7 +82,6 @@
 }
 /* end of style */
 /* footer background color padding top & bottom font-style */
-
 .foot-img {
     width: 2.5rem;
     height:2.5rem;

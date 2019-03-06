@@ -3,11 +3,32 @@
 /* responsive for mobile phone: */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 515px)
   and (-webkit-min-device-pixel-ratio: 2) {
       
-    .navbar li a {
-        @include nav ;
+    header nav {
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .hamburger-menu {
+        position: absolute;
+        
+        span{
+            background-color: rgba(128, 128, 128, 0.719);
+            border-radius: 4px;
+            padding: 2px;
+            margin: 5px;
+            display: block;
+            width: 40px;
+            height: 5px;
+            position: relative;
+        }
+    }
+    .hamburger-menu:hover nav{
+        opacity: 1;
+    }
+    .navbar a li {
+        @include nav;
     }
     /* navbar */
     nav {
@@ -18,29 +39,14 @@
         padding: 0 0 0 1.5625rem;
         display: block;
     }
-   
-    // navarbar
-    // nav li a {
-    //     text-align: left;
-    //     font-size: 0.5rem;
-    //     word-spacing: 0.2rem;
-    //     display: block;
-    //     @include nav ;
-    // }
-    // li {
-    //     font-size: 1rem;
-    //     padding: 0.3rem;
-    //     color: black;
-    //     display: block;
-    // }
     /* first heading background color, text and size */
     /* style heading 2 */
     .name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: left;
         padding: 0.3rem;
-        margin-top: 5rem;
-        margin-left: 0.5rem;
+        margin-top: 25rem;
+        margin-left: 1.5rem;
         word-spacing: 0.2rem;
         letter-spacing: 0.3rem;
     }
@@ -67,9 +73,7 @@
     /* heading about paragraph */
     p {
         padding: 0.2rem;
-        text-align: left;
         font-size: 1.2rem;
-        display: block;
     }
     /* iframe headers links */
     .schools {
@@ -91,6 +95,7 @@
         text-align: left;
     }
     .box-1 {
+        font-size: 1.5rem;
         padding: 0.5rem;
         margin: 0;
         background-color: rgba(86, 86, 88, 0.418);
@@ -113,21 +118,24 @@
     .fab {
         font-size: 3rem;
     }
+    h3 {
+        text-align: center;
+    }
     .container-4 {
         grid-gap: 0;
-        grid-template-columns: 250px;
+        grid-template-columns: 1fr;
         grid-area: 
             "project",
             "project2";
     }
     .container-4 img {
-        width: 40%;
+        width: 50%;
+        height: 10rem;
     }
     .container-4 h3 {
         text-align: left;
     }
     .container-4 div {
-        width: 40rem; 
         padding: 1rem;
         margin: auto;
     }
@@ -235,9 +243,17 @@
     /* work experience */
     .exp {
     display: grid;
-    grid-template-columns: repeat(3, 260px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
         "box1 box2 box3"
+    }
+    .box-1 {
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        margin: 0;
+        background-color: rgba(86, 86, 88, 0.418);
+        box-shadow: 2px 2px 2px rgba(91, 91, 94, 0.87);
+        text-align: left;
     }
     .columns-1 {
         grid-area: box1;
@@ -274,19 +290,16 @@
     }
     .container-4 {
         grid-gap: 0;
-        grid-template-columns: repeat(2, 400px);
+        padding: 1rem;
+        grid-template-columns: 1fr;
         grid-area: 
             "project project2";
     }
     .container-4 img {
-        width: 50%;
-    }
-    .container-4 h3 {
-        text-align: left;
+        width: 100%;
     }
     .container-4 div {
         width: 40rem; 
-        padding: 1rem;
         margin: auto;
     }
     .fone,
@@ -390,7 +403,7 @@
     /* work experience */
     .exp {
     display: grid;
-    grid-template-columns: repeat(3, 340px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
         "box1 box2 box3"
     }
@@ -429,19 +442,20 @@
     }
     .container-4 {
         grid-gap: 0.5rem;
-        grid-template-columns: repeat(2, 530px);
+        padding: 1rem;
+        grid-template-columns: repeat(2, 1fr);
         grid-area: 
             "project project2";
     }
     .container-4 img {
-        width: 70%;
+        width: 100%;
     }
     .container-4 h3 {
         text-align: left;
     }
     .container-4 div {
-        width: 40rem; 
-        padding: 1rem;
+        width: 100%; 
+        // padding: 0.5rem;
         margin: auto;
     }
     .fone,

@@ -14,11 +14,7 @@
     grid-template-areas:
         "img img2 img3 img4";
 }
-/* style of skills image */
-.fa,
-.fab {
-  font-size: 10rem;
-}
+
 .box1 {
     grid-area: img;
     cursor: grab; cursor: grab;
@@ -42,9 +38,6 @@
     grid-area: 
         "project project2";
 }
-.container-4 img {
-    width: 100%;
-}
 
 .container-4 div {
     width: 40rem; 
@@ -55,21 +48,25 @@
     grid-area: project;
     filter: grayscale(100%);
     transition: 1s ease-in-out;
+    height: 18rem;
 }
 .project2 {
     grid-area: project2;
     filter: grayscale(100%);
     transition: 1s ease-in-out;
+    height: 18rem;
 }
 .project3 {
     grid-area: project;
     filter: grayscale(100%);
     transition: 1s ease-in-out;
+    height: 18rem;
 }
 .project4 {
     grid-area: project2;
     filter: grayscale(100%);
     transition: 1s ease-in-out;
+    height: 18rem;
 }
 .project:hover,
 .project2:hover, 
