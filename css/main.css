@@ -114,7 +114,7 @@ footer p {
 #contact {
   color: black;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   font-family: 'Dosis', sans-serif; }
 
@@ -133,10 +133,6 @@ footer p {
 
 /* end of style */
 /* class hover certain images to rotate */
-.fab:hover {
-  transform: rotateY(360deg);
-  transition: transform 4s ease-out; }
-
 .schools h2 {
   font-weight: bolder; }
 
@@ -296,6 +292,9 @@ footer p {
 /* responsive for different devices */
 /* responsive for mobile phone: */
 @media only screen and (min-device-width: 320px) and (max-device-width: 515px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-size: cover; }
+
   header nav {
     opacity: 0;
     transition: all 0.5s ease-in-out; }
@@ -303,13 +302,13 @@ footer p {
   .hamburger-menu {
     position: absolute; }
     .hamburger-menu span {
-      background-color: rgba(128, 128, 128, 0.719);
-      border-radius: 4px;
-      padding: 2px;
-      margin: 5px;
+      background-color: #808080b7;
+      border-radius: 0.25rem;
+      padding: 0.125rem;
+      margin: 0.3125rem;
       display: block;
-      width: 40px;
-      height: 5px;
+      width: 2.5rem;
+      height: 0.3125rem;
       position: relative; }
 
   .hamburger-menu:hover nav {
@@ -317,9 +316,9 @@ footer p {
 
   .navbar a li {
     font-size: 1.4rem;
-    padding: 0.3125rem 0.625rem;
+    padding: 0.3125rem 0.400rem;
     display: block;
-    margin-left: 1rem; }
+    margin-left: 0.4rem; }
 
   /* navbar */
   nav {
@@ -327,17 +326,17 @@ footer p {
 
   /*  text color */
   li {
-    padding: 0 0 0 1.5625rem;
+    padding: 0;
     display: block; }
 
   /* first heading background color, text and size */
   /* style heading 2 */
   .name {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     text-align: left;
     padding: 0.3rem;
     margin-top: 25rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     word-spacing: 0.2rem;
     letter-spacing: 0.3rem; }
 
@@ -451,6 +450,9 @@ footer p {
 /* media queries */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   /* responsive for tablets: */
+  header {
+    background-size: cover; }
+
   nav {
     text-align: center;
     font-size: 0.5rem;
@@ -590,6 +592,9 @@ footer p {
   footer p {
     font-size: 2rem; } }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
+  header {
+    background-size: cover; }
+
   nav {
     text-align: center;
     font-size: 0.5rem;

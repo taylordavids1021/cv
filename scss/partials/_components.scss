@@ -25,7 +25,7 @@
 #contact {
     color: black;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     font-family: 'Dosis', sans-serif;
 }
@@ -43,10 +43,10 @@
 }
 /* end of style */
 /* class hover certain images to rotate */
-.fab:hover {
-    transform: rotateY(360deg);
-    transition: transform 4s ease-out;
-}
+// .fab:hover {
+//     transform: rotateY(360deg);
+//     transition: transform 4s ease-out;
+// }
 
 .schools h2 {
     font-weight: bolder;

@@ -5,7 +5,9 @@
   and (min-device-width: 320px) 
   and (max-device-width: 515px)
   and (-webkit-min-device-pixel-ratio: 2) {
-      
+    header {
+        background-size: cover;
+    }
     header nav {
         opacity: 0;
         transition: all 0.5s ease-in-out;
@@ -14,13 +16,13 @@
         position: absolute;
         
         span{
-            background-color: rgba(128, 128, 128, 0.719);
-            border-radius: 4px;
-            padding: 2px;
-            margin: 5px;
+            background-color: #808080b7;
+            border-radius: 0.25rem;
+            padding: 0.125rem;
+            margin: 0.3125rem;
             display: block;
-            width: 40px;
-            height: 5px;
+            width: 2.5rem;
+            height: 0.3125rem;
             position: relative;
         }
     }
@@ -36,17 +38,17 @@
     }
     /*  text color */
     li {
-        padding: 0 0 0 1.5625rem;
+        padding: 0;
         display: block;
     }
     /* first heading background color, text and size */
     /* style heading 2 */
     .name {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         text-align: left;
         padding: 0.3rem;
         margin-top: 25rem;
-        margin-left: 1.5rem;
+        margin-left: 2rem;
         word-spacing: 0.2rem;
         letter-spacing: 0.3rem;
     }
@@ -179,6 +181,9 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     /* responsive for tablets: */
+    header {
+        background-size: cover;
+    }
      // navarbar
      nav {
         text-align: center;
@@ -339,6 +344,9 @@
   and (min-device-width: 1024px) 
   and (max-device-width: 1440px) 
   and (-webkit-min-device-pixel-ratio: 1){
+    header {
+        background-size: cover;
+    }
      // navarbar
      nav {
         text-align: center;
