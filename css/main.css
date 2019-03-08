@@ -432,8 +432,168 @@ footer p {
 
   .tab {
     margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+    width: 15%; }
+
+  .fone,
+  .git,
+  .email {
+    width: 10rem;
+    height: 5rem;
+    margin: auto; }
+
+  .fone div,
+  .email div,
+  .git div {
+    width: 2rem;
+    height: 1rem;
+    margin: auto; }
+
+  .tab img {
+    width: 100%; }
+
+  .tab p {
+    font-size: 0.8rem;
+    text-align: left; }
+
+  footer p {
+    font-size: 1rem; } }
+@media only screen and (min-device-width: 375px) and (max-device-width: 764px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-size: cover; }
+
+  header nav {
+    opacity: 0;
+    transition: all 0.5s ease-in-out; }
+
+  .hamburger-menu {
+    position: absolute; }
+    .hamburger-menu span {
+      background-color: #808080b7;
+      border-radius: 0.25rem;
+      padding: 0.125rem;
+      margin: 0.3125rem;
+      display: block;
+      width: 2.5rem;
+      height: 0.3125rem;
+      position: relative; }
+
+  .hamburger-menu:hover nav {
+    opacity: 1; }
+
+  .navbar a li {
+    font-size: 1.4rem;
+    padding: 0.3125rem 0.400rem;
+    display: block;
+    margin-left: 0.4rem; }
+
+  /* navbar */
+  nav {
+    text-align: left; }
+
+  /*  text color */
+  li {
+    padding: 0;
+    display: block; }
+
+  /* first heading background color, text and size */
+  /* style heading 2 */
+  .name {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.3rem;
+    margin-top: 25rem;
+    margin-left: 2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.3rem; }
+
+  h3 {
+    font-size: 2rem; }
+
+  /* styles of jump links */
+  #about,
+  #education,
+  #work,
+  #skills,
+  #latest,
+  #contact {
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center; }
+
+  .about-p,
+  .edu-link {
+    padding: 0.2rem;
+    margin: 0.2rem;
+    width: 97%; }
+
+  /* heading about paragraph */
+  p {
+    padding: 0.2rem;
+    font-size: 1.7rem; }
+
+  /* iframe headers links */
+  .schools {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-left: 0; }
+    .schools ul {
+      text-align: left; }
+    .schools li {
+      padding-left: 0;
+      display: block; }
+
+  .exp {
+    text-align: center; }
+
+  .box-1 {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    margin: 0;
+    box-shadow: 2px 2px 2px rgba(91, 91, 94, 0.87);
+    text-align: center; }
+
+  /* work experience */
+  .exp {
+    grid-template-columns: 1fr; }
+
+  .container-3 {
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0;
+    grid-template-areas: "img img2 img3 img4"; }
+
+  /* style of skills image */
+  .fa,
+  .fab {
+    font-size: 5rem; }
+
+  h3 {
+    text-align: center; }
+
+  .container-4 {
+    grid-gap: 0;
+    margin: 0;
+    width: 100%;
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-area: "project", "project2"; }
+
+  .container-4 img {
+    width: 100%;
+    height: 30rem; }
+
+  .container-4 h3 {
+    text-align: left; }
+
+  .container-4 div {
+    padding: 1rem;
+    margin: 0; }
+
+  .tab {
+    margin: 0;
     grid-template-columns: repeat(3, 1fr);
-    width: 50%; }
+    width: 100%; }
 
   .fone,
   .git,
