@@ -1,88 +1,32 @@
 
 // ====== components ====== // 
 
-/* link text-size, padding , bgc, center,margin*/
-.navbar li a { 
-    @include navbar;
+//  ***************** components ************* //
+/* self learn */
+/* style of scroller, style of thumb */
+::-webkit-scrollbar {
+    width: 20px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(126, 123, 123, 0.589); 
+} 
+::-webkit-scrollbar-thumb {
+    background: rgba(102, 114, 124, 0.678);
 }
-/* hover over navbar */
-.navbar a:hover {
-    color: rgba(65, 209, 149, 0.801);
-    text-shadow: 0 0 25px rgb(0, 255, 149);
-    transition: 0.10s;
+// style of mouse when hover over projects;
+.box1 {
+    grid-area: img;
+    cursor: grab; cursor: grab;
 }
-/* first heading background color, text and size */
-/* style heading 2 */
-.name {
-    @include header;
+.box2 {
+    grid-area: img2;
+    cursor: grab; cursor: grab;
 }
-/* styles of jump links */
-#about,
-#education,
-#work,
-#skills,
-#latest,
-#contact {
-    color: black;
-    padding: 1rem;
-    font-size: 3rem;
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
+.box3 {
+    grid-area: img4;
+    cursor: grab; cursor: grab;
 }
-/* end of jump link style */
-
-.about-p,
-.edu-link {
-    @include background;
-}
-/* iframe headers links */
-.schools {
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 1.5rem;
-}
-/* end of style */
-/* class hover certain images to rotate */
-// .fab:hover {
-//     transform: rotateY(360deg);
-//     transition: transform 4s ease-out;
-// }
-
-.schools h2 {
-    font-weight: bolder;
-}
-.edu {
-    text-decoration: underline;
-    font-weight: bold;
-}
-.exp {
-    text-align: center;
-    font-size: 1.2rem;
-}
-.exp p:hover {
-    text-decoration: underline;
-}
-.box-1 {
-    padding: 2rem;
-    margin: 1.5rem;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.219);
-    text-align: center;
-}
-/* style of skills image */
-.fa,
-.fab {
-  font-size: 10rem;
-}
-/* style of unordered list of contact details */
-.email,
-.git,
-.fone {
-    transition: 1s ease-in;
-}
-/* end of style */
-/* footer background color padding top & bottom font-style */
-.foot-img {
-    width: 2.5rem;
-    height:2.5rem;
+.box4 {
+    grid-area: img3;
+    cursor: grab; cursor: grab;
 }

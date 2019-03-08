@@ -14,31 +14,32 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Dosis" rel="stylesheet">
     <!-- icon awesome link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>  
     <!--insert heading-->
     <div class="container">
         <header>
+            <!-- hamburger nav bar - mobile responsive -->
             <div class="hamburger-menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            <nav>
-                <!--jumplinks navbar-->
-            <ul id="nav" class="navbar" style="background: rgba(0, 0, 0, 0);">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#work">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#latest">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul> 
-            </nav>
+                <a id="up"></a>
+                <nav>
+                    <!--jumplinks navbar-->
+                    <ul id="nav" class="navbar" style="background: rgba(0, 0, 0, 0);">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#work">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#latest">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul> 
+                </nav>
             </div>
             <!-- <h2>My Name is</h2> -->
             <div class="name">
-                <h2><i class="fal fa-lightbulb-on"></i>Taylor Davids<i class="fal fa-lightbulb-on"></i></h2>
+                <h2>Taylor Davids</h2>
             </div>
         </header>
         <!-- container 1 -->
@@ -98,16 +99,20 @@
        <div class="container-3" id="skills"> 
             <!--images of skills and abillty-->
             <div class="box1">
-                <i class="fab fa-html5"></i>
+               <div> <i class="fab fa-html5"></i></div>
+               <p>html</p>
             </div>
             <div class="box2">
-                <i class="fab fa-css3-alt"></i>
+                <div><i class="fab fa-css3-alt"></i></div>
+                <p>css</p>
             </div>
             <div class="box3">
-                <i class="fab fa-sass"></i>
+                <div><i class="fab fa-sass"></i></div>
+                <p>sass</p>
             </div>
             <div class="box4">
-                <i class="fab fa-js"></i>
+                <div><i class="fab fa-js"></i></div>
+                <p>javascript</p>
             </div> 
         </div>  
         <!--info on latest profile with company logo-->
@@ -155,7 +160,7 @@
                 <!-- git image -->
                 <div class="git">
                     <div>
-                        <a href="https://github.com/taylordavids1021"><img src="../cv_project/images/icons8-github-filled-90.png"></a>
+                        <a href="https://github.com/taylordavids1021"><img src="../cv_project/images/icons8-github-filled-90.png" target="_blank"></a>
                     </div>
                     <p>taylordavids1021</p>
                 </div>
@@ -163,7 +168,7 @@
         <!-- End of style -->
         <!--footer code-->
         <footer>
-            <p>Designied by Taylor Davids © 2019 <img class="foot-img" src="..//cv_project/images/Code.org_logo.svg.png"></p> 
+                <p><a href="#up"><i id="up" class="fas fa-chevron-circle-up"></i></a>  Designied by Taylor Davids © 2019 <img class="foot-img" src="..//cv_project/images/Code.org_logo.svg.png"></p> 
         </footer>
         <!-- end of footer code -->
     </div>

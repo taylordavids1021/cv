@@ -15,18 +15,18 @@
 @mixin background {
   padding: 0.7rem;
   margin: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.219);
+  background-color: $grey;
 }
 // mixin for navbar
 @mixin navbar {
     font-size: 2rem ;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: $white;
     padding: 0.3125rem 0.625rem;
     display: inline;
     font-family: 'Dosis', sans-serif;
     margin-left: 2rem;
-    text-shadow: rgb(49, 46, 45);
+    text-shadow: $textshadow;
     word-spacing: 1rem;
     text-transform: uppercase;
     font-weight: bold;

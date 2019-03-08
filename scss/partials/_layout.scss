@@ -1,6 +1,11 @@
 
 // layout //
-
+/* container */
+.container {
+    display: grid;
+    margin: 0;
+    overflow: hidden;
+}
 /* work experience */
 .exp {
     display: grid;
@@ -11,26 +16,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
     grid-template-areas:
         "img img2 img3 img4";
 }
-
-.box1 {
-    grid-area: img;
-    cursor: grab; cursor: grab;
-}
-.box2 {
-    grid-area: img2;
-    cursor: grab; cursor: grab;
-}
-.box3 {
-    grid-area: img4;
-    cursor: grab; cursor: grab;
-}
-.box4 {
-    grid-area: img3;
-    cursor: grab; cursor: grab;
-}
+// projects
 .container-4 {
     display: grid;
     grid-gap: 1rem;
@@ -68,16 +59,6 @@
     transition: 1s ease-in-out;
     height: 18rem;
 }
-.project:hover,
-.project2:hover, 
-.project3:hover, 
-.project4:hover {
-    filter: grayscale(0%);
-    transition: 1s ease-in-out;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
-                -10px -10px 10px rgba(0, 0, 0, 0.3);
-    cursor: grab; cursor: grab;
-}
 
 .tab {
     margin: auto;
@@ -85,45 +66,5 @@
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
 }
- 
-.tab img {
-   width: 100%;
-   height: auto;
-}
 
-.fone,
-.git,
-.email {
-    width: 20rem;
-    height: 10rem;
-    margin: auto;
-    text-align: center;
-}
-
-.fone div {
-    width: 4rem;
-    height: 4rem;
-    margin: auto;
-}
-
-.email div {
-    width: 4rem;
-    height: 4rem;
-    margin: auto;
-}
-.git div {
-    width: 4rem;
-    height: 4rem;
-    margin: auto;
-}
-.tab p {
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-.fone:hover p,
-.git:hover p,
-.email:hover p {
-    opacity: 1;
-}
 // end of layout //

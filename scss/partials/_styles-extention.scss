@@ -1,0 +1,135 @@
+// ************ style extentions **************** //
+/* link text-size, padding , bgc, center,margin*/
+.navbar li a { 
+    @include navbar;
+}
+/* hover over navbar */
+.navbar a:hover {
+    color: $light-green;
+    text-shadow: 0 0 25px $green-shadow;
+    transition: 0.10s;
+}
+/* first heading background color, text and size */
+/* style heading 2 */
+.name {
+    @include header;
+}
+/* styles of jump links */
+#about,
+#education,
+#work,
+#skills,
+#latest,
+#contact {
+    color: black;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+/* end of jump link style */
+
+.about-p,
+.edu-link {
+    @include background;
+}
+/* iframe headers links */
+.schools {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+}
+/* end of style */
+/* class hover certain images to rotate */
+.fab:hover {
+    transition: transform 4s ease-in;
+}
+.schools h2 {
+    font-weight: bolder;
+}
+.edu {
+    text-decoration: underline;
+    font-weight: bold;
+}
+//  experince //
+.exp {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.box-1 {
+    padding: 2rem;
+    margin: 1.5rem;
+    font-weight: bold;
+    background-color: $grey;
+    text-align: center;
+}
+/* style of skills image */
+.fa,
+.fab {
+  font-size: 10rem;
+}
+/* style of projects */ 
+.container-4 {
+    background-color: $grey;
+    margin: 1.5rem;
+    padding: 2rem;
+}
+.project:hover,
+.project2:hover, 
+.project3:hover, 
+.project4:hover {
+    filter: grayscale(0%);
+    transition: 1s ease-in-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
+                -10px -10px 10px rgba(0, 0, 0, 0.3);
+    cursor: grab; cursor: grab;
+}
+/* style of unordered list of contact details */
+.fone,
+.git,
+.email {
+    width: 20rem;
+    height: 10rem;
+    margin: auto;
+    text-align: center;
+    transition: 1s ease-in;
+}
+
+.fone div,
+.email div,
+.git div {
+    width: 4rem;
+    height: 4rem;
+    margin: auto;
+}
+
+// hover over icons and text appears //
+.box1 div,
+.box2 div,
+.box3 div,
+.box4 div {
+    transition: 1s ease-in;
+}
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.tab p {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.box1:hover p,
+.box2:hover p,
+.box3:hover p,
+.box4:hover p,
+.fone:hover p,
+.git:hover p,
+.email:hover p {
+    opacity: 1;
+}
+/* end of style */
+/* footer background color padding top & bottom font-style */
+.foot-img {
+    width: 2.5rem;
+    height:2.5rem;
+}

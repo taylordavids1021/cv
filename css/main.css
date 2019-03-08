@@ -1,3 +1,35 @@
+/* ************ variables ************** */
+/* self learn */
+/* style of scroller, style of thumb */
+::-webkit-scrollbar {
+  width: 20px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(126, 123, 123, 0.589); }
+
+::-webkit-scrollbar-thumb {
+  background: rgba(102, 114, 124, 0.678); }
+
+.box1 {
+  grid-area: img;
+  cursor: grab;
+  cursor: grab; }
+
+.box2 {
+  grid-area: img2;
+  cursor: grab;
+  cursor: grab; }
+
+.box3 {
+  grid-area: img4;
+  cursor: grab;
+  cursor: grab; }
+
+.box4 {
+  grid-area: img3;
+  cursor: grab;
+  cursor: grab; }
+
 /* base style */
 html {
   scroll-behavior: smooth;
@@ -9,12 +41,6 @@ header {
   height: 100vh;
   background: linear-gradient(rgba(65, 209, 149, 0.445), rgba(65, 67, 69, 0.795)), url(../images/blackboard-business-chalkboard-355988.jpg);
   background-size: 100% 100%; }
-
-/* container */
-.container {
-  display: grid;
-  margin: 0;
-  overflow: hidden; }
 
 /* background color */
 body {
@@ -53,17 +79,6 @@ h3 {
   text-align: center;
   font-family: 'Dosis', sans-serif; }
 
-/* self learn */
-/* style of scroller, style of thumb */
-::-webkit-scrollbar {
-  width: 20px; }
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(126, 123, 123, 0.589); }
-
-::-webkit-scrollbar-thumb {
-  background: rgba(102, 114, 124, 0.678); }
-
 footer {
   background-color: rgba(0, 0, 0, 0.493); }
 
@@ -78,7 +93,7 @@ footer p {
 .navbar li a {
   font-size: 2rem;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   padding: 0.3125rem 0.625rem;
   display: inline;
   font-family: 'Dosis', sans-serif;
@@ -90,7 +105,7 @@ footer p {
 
 /* hover over navbar */
 .navbar a:hover {
-  color: rgba(65, 209, 149, 0.801);
+  color: #41d195cc;
   text-shadow: 0 0 25px #00ff95;
   transition: 0.10s; }
 
@@ -123,7 +138,7 @@ footer p {
 .edu-link {
   padding: 0.7rem;
   margin: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.219); }
+  background-color: #ffffff38; }
 
 /* iframe headers links */
 .schools {
@@ -133,6 +148,9 @@ footer p {
 
 /* end of style */
 /* class hover certain images to rotate */
+.fab:hover {
+  transition: transform 4s ease-in; }
+
 .schools h2 {
   font-weight: bolder; }
 
@@ -144,14 +162,11 @@ footer p {
   text-align: center;
   font-size: 1.2rem; }
 
-.exp p:hover {
-  text-decoration: underline; }
-
 .box-1 {
   padding: 2rem;
   margin: 1.5rem;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.219);
+  background-color: #ffffff38;
   text-align: center; }
 
 /* style of skills image */
@@ -159,17 +174,73 @@ footer p {
 .fab {
   font-size: 10rem; }
 
+/* style of projects */
+.container-4 {
+  background-color: #ffffff38;
+  margin: 1.5rem;
+  padding: 2rem; }
+
+.project:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover {
+  filter: grayscale(0%);
+  transition: 1s ease-in-out;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3), -10px -10px 10px rgba(0, 0, 0, 0.3);
+  cursor: grab;
+  cursor: grab; }
+
 /* style of unordered list of contact details */
-.email,
+.fone,
 .git,
-.fone {
+.email {
+  width: 20rem;
+  height: 10rem;
+  margin: auto;
+  text-align: center;
   transition: 1s ease-in; }
+
+.fone div,
+.email div,
+.git div {
+  width: 4rem;
+  height: 4rem;
+  margin: auto; }
+
+.box1 div,
+.box2 div,
+.box3 div,
+.box4 div {
+  transition: 1s ease-in; }
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p,
+.tab p {
+  opacity: 0;
+  transition: all 0.5s ease-in-out; }
+
+.box1:hover p,
+.box2:hover p,
+.box3:hover p,
+.box4:hover p,
+.fone:hover p,
+.git:hover p,
+.email:hover p {
+  opacity: 1; }
 
 /* end of style */
 /* footer background color padding top & bottom font-style */
 .foot-img {
   width: 2.5rem;
   height: 2.5rem; }
+
+/* container */
+.container {
+  display: grid;
+  margin: 0;
+  overflow: hidden; }
 
 /* work experience */
 .exp {
@@ -180,27 +251,9 @@ footer p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
+  text-transform: uppercase;
+  font-weight: bolder;
   grid-template-areas: "img img2 img3 img4"; }
-
-.box1 {
-  grid-area: img;
-  cursor: grab;
-  cursor: grab; }
-
-.box2 {
-  grid-area: img2;
-  cursor: grab;
-  cursor: grab; }
-
-.box3 {
-  grid-area: img4;
-  cursor: grab;
-  cursor: grab; }
-
-.box4 {
-  grid-area: img3;
-  cursor: grab;
-  cursor: grab; }
 
 .container-4 {
   display: grid;
@@ -237,57 +290,11 @@ footer p {
   transition: 1s ease-in-out;
   height: 18rem; }
 
-.project:hover,
-.project2:hover,
-.project3:hover,
-.project4:hover {
-  filter: grayscale(0%);
-  transition: 1s ease-in-out;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3), -10px -10px 10px rgba(0, 0, 0, 0.3);
-  cursor: grab;
-  cursor: grab; }
-
 .tab {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%; }
-
-.tab img {
-  width: 100%;
-  height: auto; }
-
-.fone,
-.git,
-.email {
-  width: 20rem;
-  height: 10rem;
-  margin: auto;
-  text-align: center; }
-
-.fone div {
-  width: 4rem;
-  height: 4rem;
-  margin: auto; }
-
-.email div {
-  width: 4rem;
-  height: 4rem;
-  margin: auto; }
-
-.git div {
-  width: 4rem;
-  height: 4rem;
-  margin: auto; }
-
-.tab p {
-  opacity: 0;
-  transition: all 0.5s ease-in-out; }
-
-.fone:hover p,
-.git:hover p,
-.email:hover p {
-  opacity: 1; }
 
 /* responsive for different devices */
 /* responsive for mobile phone: */
@@ -332,7 +339,7 @@ footer p {
   /* first heading background color, text and size */
   /* style heading 2 */
   .name {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: 0.3rem;
     margin-top: 25rem;
@@ -357,7 +364,8 @@ footer p {
   .about-p,
   .edu-link {
     padding: 0.2rem;
-    margin: 0; }
+    margin: 0.2rem;
+    width: 42%; }
 
   /* heading about paragraph */
   p {
@@ -379,10 +387,9 @@ footer p {
     text-align: left; }
 
   .box-1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
     margin: 0;
-    background-color: rgba(86, 86, 88, 0.418);
     box-shadow: 2px 2px 2px rgba(91, 91, 94, 0.87);
     text-align: left; }
 
@@ -391,6 +398,7 @@ footer p {
     grid-template-columns: 1fr; }
 
   .container-3 {
+    width: 42%;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0;
     grid-template-areas: "img img2 img3 img4"; }
@@ -398,18 +406,21 @@ footer p {
   /* style of skills image */
   .fa,
   .fab {
-    font-size: 3rem; }
+    font-size: 2rem; }
 
   h3 {
     text-align: center; }
 
   .container-4 {
     grid-gap: 0;
+    margin: 0;
+    padding: 1.2rem;
+    width: 42%;
     grid-template-columns: 1fr;
     grid-area: "project", "project2"; }
 
   .container-4 img {
-    width: 50%;
+    width: 40%;
     height: 10rem; }
 
   .container-4 h3 {
@@ -419,31 +430,31 @@ footer p {
     padding: 1rem;
     margin: auto; }
 
+  .tab {
+    margin: 0;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%; }
+
   .fone,
   .git,
   .email {
-    width: 5rem;
-    margin: auto;
-    text-align: left; }
-
-  .fone div {
-    width: 2.5rem;
-    height: 2rem;
+    width: 10rem;
     height: 5rem;
     margin: auto; }
 
-  .email div {
-    width: 2.5rem;
-    height: 2rem;
+  .fone div,
+  .email div,
+  .git div {
+    width: 2rem;
+    height: 1rem;
     margin: auto; }
 
-  .git div {
-    width: 2.5rem;
-    height: 2rem;
-    margin: auto; }
+  .tab img {
+    width: 100%; }
 
   .tab p {
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    text-align: left; }
 
   footer p {
     font-size: 1rem; } }

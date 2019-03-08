@@ -13,12 +13,7 @@ header {
     background: linear-gradient(rgba(65, 209, 149, 0.445),rgba(65, 67, 69, 0.795)), url(../images/blackboard-business-chalkboard-355988.jpg);
     background-size: 100% 100%;
 }
-/* container */
-.container {
-    display: grid;
-    margin: 0;
-    overflow: hidden;
-}
+
 /* background color */
 body {
     background: linear-gradient(rgba(128, 128, 128, 0.664),rgba(65, 67, 69, 0.795)), url(../images/clouds-cloudscape-cloudy-158163.jpg);
@@ -56,18 +51,6 @@ h3 {
     text-align: center;
     font-family: 'Dosis', sans-serif;
 }
-/* self learn */
-/* style of scroller, style of thumb */
-::-webkit-scrollbar {
-    width: 20px;
-} 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(126, 123, 123, 0.589); 
-} 
-::-webkit-scrollbar-thumb {
-    background: rgba(102, 114, 124, 0.678);
-}
-
 // footer
 footer{
     background-color: rgba(0, 0, 0, 0.493);
