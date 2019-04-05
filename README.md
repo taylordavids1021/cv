@@ -19,7 +19,6 @@ HTML is a ....
 - HTML
 - CSS
 - SASS
-- JS
 
 
 ### Other Technologies Used
