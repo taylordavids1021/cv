@@ -2,17 +2,39 @@
 /* link text-size, padding , bgc, center,margin*/
 .navbar li a { 
     @include navbar;
+    transition: 1s ease-in;
 }
 /* hover over navbar */
 .navbar a:hover {
-    color: $light-green;
-    text-shadow: 0 0 25px $green-shadow;
-    transition: 0.10s;
+    color: $light-blue;
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-color: white;
+    text-shadow: 0 0 25px $blue-shadow;
+    transition: 1s ease-in-out;
 }
 /* first heading background color, text and size */
 /* style heading 2 */
 .name {
     @include header;
+
+    li{
+        color: $blue-shadow;
+        background-color: rgba(255, 255, 255, 0.822);
+        font-weight: bolder;
+        border-radius: 20%;
+        padding: 1rem;
+    }
+}
+.name1{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 45%;
+    height: 45%;
+}
+nav li:hover {
+    transition: 1s ease-in-out;
+    transform: scale(1.5);
 }
 /* styles of jump links */
 #about,
@@ -28,10 +50,29 @@
     font-family: 'Dosis', sans-serif;
 }
 /* end of jump link style */
-
+// banner image
+.me {
+    margin: auto;
+    // height: 100%;
+}
+.image-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem;
+}
 .about-p,
 .edu-link {
     @include background;
+    transition: 2s ease-in;
+}
+.about-p:hover,
+.edu-link:hover,
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover{
+    transform: scale(1.1);
+    transition: 2s ease-in-out;
 }
 /* iframe headers links */
 .schools {
@@ -78,6 +119,7 @@
 .project2:hover, 
 .project3:hover, 
 .project4:hover {
+    transform: scale(1.1);
     filter: grayscale(0%);
     transition: 1s ease-in-out;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3),
@@ -93,6 +135,15 @@
     margin: auto;
     text-align: center;
     transition: 1s ease-in;
+
+    p {
+        color: rgba(255, 255, 255, 0.603);
+    }
+}
+.fone:hover,
+.git:hover,
+.email:hover{
+    transform: scale(1.1);
 }
 
 .fone div,
@@ -104,12 +155,13 @@
 }
 
 // hover over icons and text appears //
-.box1 div,
-.box2 div,
-.box3 div,
-.box4 div {
+.box1,
+.box2,
+.box3,
+.box4{
     transition: 1s ease-in;
 }
+
 .box1 p,
 .box2 p,
 .box3 p,

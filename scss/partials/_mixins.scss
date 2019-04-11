@@ -13,23 +13,23 @@
 
 // paragraph 
 @mixin background {
-  padding: 0.7rem;
+  padding: 2rem;
   margin: 1.5rem;
   background-color: $grey;
 }
 // mixin for navbar
 @mixin navbar {
-    font-size: 2rem ;
-    text-decoration: none;
-    color: $white;
-    padding: 0.3125rem 0.625rem;
-    display: inline;
-    font-family: 'Dosis', sans-serif;
-    margin-left: 2rem;
-    text-shadow: $textshadow;
-    word-spacing: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
+  font-size: 2rem ;
+  text-decoration: none;
+  color: $white;
+  padding: 0.3125rem 0.625rem;
+  display: inline;
+  font-family: 'Dosis', sans-serif;
+  margin-left: 2rem;
+  text-shadow: $textshadow;
+  word-spacing: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @mixin nav {

@@ -6,6 +6,20 @@
     margin: 0;
     overflow: hidden;
 }
+.about-p {
+    display: grid;
+    margin: auto;
+    width: 71.654rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+        "title title"
+        "image box"
+}
+.the-future-influencer{
+    grid-area: title;
+    text-decoration: underline;
+    font-weight: bold;
+}
 /* work experience */
 .exp {
     display: grid;
@@ -27,9 +41,16 @@
     grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     grid-area: 
+        "title title",
         "project project2";
 }
-
+.the-clean-coder{
+    grid-area: title;
+    grid-column: 2 span;
+    // text-decoration: underline;
+    letter-spacing: 0.5rem;
+    word-spacing: 2rem;
+}
 .container-4 div {
     width: 40rem; 
     padding: 1rem 0;
@@ -47,19 +68,18 @@
     transition: 1s ease-in-out;
     height: 18rem;
 }
-.project3 {
-    grid-area: project;
-    filter: grayscale(100%);
-    transition: 1s ease-in-out;
-    height: 18rem;
-}
-.project4 {
-    grid-area: project2;
-    filter: grayscale(100%);
-    transition: 1s ease-in-out;
-    height: 18rem;
-}
-
+// .project3 {
+//     grid-area: project;
+//     filter: grayscale(100%);
+//     transition: 1s ease-in-out;
+//     height: 18rem;
+// }
+// .project4 {
+//     grid-area: project2;
+//     filter: grayscale(100%);
+//     transition: 1s ease-in-out;
+//     height: 18rem;
+// }
 .tab {
     margin: auto;
     display: grid;

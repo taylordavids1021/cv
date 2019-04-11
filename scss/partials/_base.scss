@@ -10,13 +10,13 @@ html {
 }
 header {
     height: 100vh;
-    background: linear-gradient(rgba(65, 209, 149, 0.445),rgba(65, 67, 69, 0.795)), url(../images/blackboard-business-chalkboard-355988.jpg);
+    background-image: url(../images/technology-785742_1920.jpg);
     background-size: 100% 100%;
 }
 
 /* background color */
 body {
-    background: linear-gradient(rgba(128, 128, 128, 0.664),rgba(65, 67, 69, 0.795)), url(../images/clouds-cloudscape-cloudy-158163.jpg);
+    background-image: url(../images/clouds-cloudscape-cloudy-158163.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -46,7 +46,9 @@ p {
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
 }
-h3 {
+h3,
+.the-future-influencer,
+.the-clean-coder {
     font-size: 2rem;
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -56,10 +58,11 @@ footer{
     background-color: rgba(0, 0, 0, 0.493);
 }
 footer p {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-family: 'Dosis', sans-serif;
     padding: 1rem;
     margin: 0;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 // end of base //
