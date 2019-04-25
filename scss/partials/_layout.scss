@@ -39,6 +39,7 @@
 .container-4 {
     display: grid;
     grid-gap: 1rem;
+    text-align: center;
     grid-template-columns: repeat(2, 1fr);
     grid-area: 
         "title title",
